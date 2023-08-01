@@ -1,0 +1,3402 @@
+[
+  {
+    "transporter": [
+      {
+        "id": "242593a2-4d99-44b2-b351-5d8a129a1f68",
+        "name": "ABC Transport",
+        "created_at": "2023-08-01T05:24:31.903Z",
+        "updated_at": "2023-07-31T19:53:24.016Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0ea864b1-a8c2-4b7b-96b3-91ca3057ed02",
+        "name": "XYZ Logistics",
+        "created_at": "2023-07-31T13:02:04.512Z",
+        "updated_at": "2023-08-01T08:43:22.136Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f028bef7-1533-4315-81f4-e6e8724b41ac",
+        "name": "QuickShip",
+        "created_at": "2023-08-01T00:22:49.969Z",
+        "updated_at": "2023-08-01T09:27:56.268Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ea62281e-3c58-4425-915c-8048191167f0",
+        "name": "SpeedyTrans",
+        "created_at": "2023-08-01T01:46:37.299Z",
+        "updated_at": "2023-07-31T22:46:52.981Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dd2b2654-6274-4bd4-badb-f239fedf68b7",
+        "name": "ExpressCargo",
+        "created_at": "2023-07-31T20:55:57.295Z",
+        "updated_at": "2023-07-31T14:48:37.111Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "supplier": [
+      {
+        "id": "ebb5a9c0-958e-4c8d-9ef9-5d720988e221",
+        "name": "ABC Suppliers",
+        "created_at": "2023-07-31T20:34:24.768Z",
+        "updated_at": "2023-08-01T08:34:24.425Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "43b30090-bf91-40f4-a012-858121af929c",
+        "name": "XYZ Distributors",
+        "created_at": "2023-08-01T08:43:01.596Z",
+        "updated_at": "2023-07-31T15:56:33.020Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b78b7510-0af8-41a0-ab14-2c31ddcd5894",
+        "name": "Global Imports",
+        "created_at": "2023-08-01T08:44:17.974Z",
+        "updated_at": "2023-07-31T18:37:09.531Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9a45d5bc-3de2-458f-9d4f-0b6ba9d72400",
+        "name": "Local Traders",
+        "created_at": "2023-08-01T05:02:35.839Z",
+        "updated_at": "2023-07-31T13:32:22.238Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "77bf02fa-b588-40b7-87fc-f70ca9a2cf4e",
+        "name": "International Exporters",
+        "created_at": "2023-08-01T05:54:47.664Z",
+        "updated_at": "2023-08-01T05:57:54.941Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "reminder": [
+      {
+        "id": "87a14199-6aaa-407d-857a-6c7b269273ff",
+        "details": "Meeting at 10 AM",
+        "created_at": "2023-07-31T17:17:34.550Z",
+        "updated_at": "2023-08-01T01:14:25.495Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6d479795-75c5-4ee7-be66-e9db5ead6d23",
+        "details": "Submit report by end of day",
+        "created_at": "2023-07-31T22:41:53.096Z",
+        "updated_at": "2023-07-31T22:35:27.349Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5c4a8d72-4f6c-4d64-affa-edc85ae093fb",
+        "details": "Follow up with client",
+        "created_at": "2023-08-01T01:33:16.506Z",
+        "updated_at": "2023-08-01T05:02:55.063Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5cb08b61-7304-490b-8a1f-f524b64c6e4f",
+        "details": "Review project progress",
+        "created_at": "2023-07-31T20:29:08.011Z",
+        "updated_at": "2023-08-01T10:57:58.079Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "26214bac-65f5-470d-822e-fc3f01452a1e",
+        "details": "Send payment reminder",
+        "created_at": "2023-07-31T19:48:15.429Z",
+        "updated_at": "2023-07-31T19:33:16.371Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "vehicle": [
+      {
+        "id": "df3e113c-03da-467e-8429-211538c8decd",
+        "info": "Sedan",
+        "created_at": "2023-08-01T00:19:35.955Z",
+        "updated_at": "2023-08-01T06:16:20.602Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "0d38be03-f12a-4c4a-a919-adb40827451e",
+        "info": "SUV",
+        "created_at": "2023-07-31T17:00:49.994Z",
+        "updated_at": "2023-08-01T04:28:54.169Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "d4bac45a-dfba-4845-a0ca-78836d163a94",
+        "info": "Truck",
+        "created_at": "2023-08-01T08:22:45.062Z",
+        "updated_at": "2023-08-01T06:59:38.481Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "87d66cc6-63c0-4d2b-9d26-9cb1e716d94d",
+        "info": "Motorcycle",
+        "created_at": "2023-08-01T08:28:08.154Z",
+        "updated_at": "2023-08-01T11:48:48.609Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "c18e1bcf-8c3a-479f-81d7-25892e0ce3d4",
+        "info": "Van",
+        "created_at": "2023-08-01T06:44:11.704Z",
+        "updated_at": "2023-08-01T03:42:18.591Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "trip": [
+      {
+        "id": "41a0fd4a-4a25-4f50-88ac-130ca9c86716",
+        "cost": 58599,
+        "created_at": "2023-07-31T22:03:36.205Z",
+        "updated_at": "2023-08-01T10:06:21.381Z",
+        "vehicle_id": "d4bac45a-dfba-4845-a0ca-78836d163a94"
+      },
+      {
+        "id": "3bf05218-4436-41ec-b28c-4608f2690339",
+        "cost": 41438,
+        "created_at": "2023-07-31T21:17:19.426Z",
+        "updated_at": "2023-08-01T03:06:23.446Z",
+        "vehicle_id": "c18e1bcf-8c3a-479f-81d7-25892e0ce3d4"
+      },
+      {
+        "id": "8ad37423-8d0a-4c19-b626-8dd9942c6a36",
+        "cost": 83006,
+        "created_at": "2023-07-31T19:18:27.466Z",
+        "updated_at": "2023-08-01T08:05:37.992Z",
+        "vehicle_id": "c18e1bcf-8c3a-479f-81d7-25892e0ce3d4"
+      },
+      {
+        "id": "a969f2af-b86b-4a94-a536-665b94005f1d",
+        "cost": 6768,
+        "created_at": "2023-08-01T08:04:29.519Z",
+        "updated_at": "2023-08-01T07:51:58.010Z",
+        "vehicle_id": "87d66cc6-63c0-4d2b-9d26-9cb1e716d94d"
+      },
+      {
+        "id": "0638a5d0-cefa-4ae1-8e83-c7eaba636452",
+        "cost": 55808,
+        "created_at": "2023-07-31T20:57:02.002Z",
+        "updated_at": "2023-07-31T16:21:00.983Z",
+        "vehicle_id": "0d38be03-f12a-4c4a-a919-adb40827451e"
+      }
+    ],
+    "position": [
+      {
+        "id": "d5003764-92ef-4e77-9024-624247bcee25",
+        "location": "New York",
+        "created_at": "2023-08-01T10:06:37.434Z",
+        "updated_at": "2023-08-01T01:16:00.198Z",
+        "vehicle_id": "c18e1bcf-8c3a-479f-81d7-25892e0ce3d4"
+      },
+      {
+        "id": "0f3a9aa1-f942-477d-9465-b919da9c257a",
+        "location": "London",
+        "created_at": "2023-08-01T10:11:44.039Z",
+        "updated_at": "2023-08-01T03:02:54.138Z",
+        "vehicle_id": "c18e1bcf-8c3a-479f-81d7-25892e0ce3d4"
+      },
+      {
+        "id": "22f56cc6-e6e4-4fad-ab27-49a6e7f76fda",
+        "location": "Tokyo",
+        "created_at": "2023-07-31T16:08:03.679Z",
+        "updated_at": "2023-07-31T18:19:18.941Z",
+        "vehicle_id": "d4bac45a-dfba-4845-a0ca-78836d163a94"
+      },
+      {
+        "id": "2b22db82-2cdb-48d4-a43a-5cecc2766d0b",
+        "location": "Sydney",
+        "created_at": "2023-07-31T22:03:01.092Z",
+        "updated_at": "2023-07-31T19:18:26.012Z",
+        "vehicle_id": "c18e1bcf-8c3a-479f-81d7-25892e0ce3d4"
+      },
+      {
+        "id": "140f787c-ae72-4d43-b90c-d5ccb99eab2c",
+        "location": "Paris",
+        "created_at": "2023-07-31T20:08:58.266Z",
+        "updated_at": "2023-07-31T17:40:30.679Z",
+        "vehicle_id": "87d66cc6-63c0-4d2b-9d26-9cb1e716d94d"
+      }
+    ],
+    "loading_slip": [
+      {
+        "id": "feb3f525-8f0e-45e3-99e0-8015f0848af5",
+        "details": "Product A - 100 units",
+        "created_at": "2023-08-01T05:28:52.035Z",
+        "updated_at": "2023-07-31T15:05:29.455Z",
+        "trip_id": "41a0fd4a-4a25-4f50-88ac-130ca9c86716"
+      },
+      {
+        "id": "eef1fb5c-2c1b-4e14-934d-27eccf4d8719",
+        "details": "Product B - 50 units",
+        "created_at": "2023-07-31T16:09:34.634Z",
+        "updated_at": "2023-08-01T10:35:47.532Z",
+        "trip_id": "3bf05218-4436-41ec-b28c-4608f2690339"
+      },
+      {
+        "id": "5f4baca8-383d-42ff-8812-046d71fb2e45",
+        "details": "Product C - 200 units",
+        "created_at": "2023-08-01T00:03:59.398Z",
+        "updated_at": "2023-08-01T11:52:14.156Z",
+        "trip_id": "0638a5d0-cefa-4ae1-8e83-c7eaba636452"
+      },
+      {
+        "id": "366f838c-151f-4474-bc22-32f213a71fc5",
+        "details": "Product D - 75 units",
+        "created_at": "2023-08-01T02:34:07.194Z",
+        "updated_at": "2023-08-01T05:43:06.761Z",
+        "trip_id": "8ad37423-8d0a-4c19-b626-8dd9942c6a36"
+      },
+      {
+        "id": "67ffd41f-50f0-49e7-bde8-790d0daf215e",
+        "details": "Product E - 150 units",
+        "created_at": "2023-07-31T21:00:38.579Z",
+        "updated_at": "2023-08-01T10:45:57.328Z",
+        "trip_id": "0638a5d0-cefa-4ae1-8e83-c7eaba636452"
+      }
+    ],
+    "fuel": [
+      {
+        "id": "1a9a6a7d-5364-4e8b-be78-63fedebfcce9",
+        "type": "Gasoline",
+        "price": 27119,
+        "created_at": "2023-08-01T00:00:11.438Z",
+        "updated_at": "2023-07-31T21:27:05.490Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "c955446a-565d-4cdb-b7e4-a13cee895fba",
+        "type": "Diesel",
+        "price": 61667,
+        "created_at": "2023-07-31T12:56:45.091Z",
+        "updated_at": "2023-07-31T18:04:45.859Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "2c12ab0a-8b11-4952-afc8-823ea7b42d95",
+        "type": "Electric",
+        "price": 37352,
+        "created_at": "2023-08-01T03:25:11.399Z",
+        "updated_at": "2023-08-01T01:26:34.154Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "d71c44e3-d7b3-4a6b-ad8d-d785ca0714eb",
+        "type": "Hybrid",
+        "price": 9632,
+        "created_at": "2023-08-01T02:47:47.974Z",
+        "updated_at": "2023-08-01T06:43:11.454Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "5f3e537d-15a7-417c-9802-bda8b311f6bb",
+        "type": "Biofuel",
+        "price": 76394,
+        "created_at": "2023-07-31T20:59:11.485Z",
+        "updated_at": "2023-08-01T05:11:14.232Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "driver": [
+      {
+        "id": "00c4d7a2-a3f6-4ad0-8c42-19d1b4f2e416",
+        "name": "John Smith",
+        "created_at": "2023-08-01T10:10:37.922Z",
+        "updated_at": "2023-08-01T09:12:21.103Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "11d2bcba-68a1-4335-8eb7-6719cf9ed9ef",
+        "name": "Jane Doe",
+        "created_at": "2023-07-31T16:35:50.424Z",
+        "updated_at": "2023-08-01T07:51:09.150Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "82699cdd-228b-442b-b482-cf03be222535",
+        "name": "Michael Brown",
+        "created_at": "2023-07-31T16:48:52.805Z",
+        "updated_at": "2023-08-01T00:30:57.152Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d249a86c-4b5c-41c3-b0d7-f9b5d61cd539",
+        "name": "Sarah Jones",
+        "created_at": "2023-08-01T11:43:46.726Z",
+        "updated_at": "2023-08-01T09:37:44.025Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2dc76701-3366-4fa3-8325-c4b2037e0c1b",
+        "name": "David Wilson",
+        "created_at": "2023-08-01T09:48:26.855Z",
+        "updated_at": "2023-08-01T11:34:47.178Z",
+        "user_id": "user_entity_pk"
+      }
+    ]
+  },
+  {
+    "transporter": [
+      {
+        "id": "bc8d56e6-48eb-47f9-bb1d-9299b4062cfc",
+        "name": "ABC Transport",
+        "created_at": "2023-07-31T13:56:00.019Z",
+        "updated_at": "2023-08-01T08:26:42.732Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "65214003-28bd-45aa-b43a-4a048810e2b1",
+        "name": "XYZ Logistics",
+        "created_at": "2023-08-01T03:16:17.731Z",
+        "updated_at": "2023-08-01T08:01:30.574Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "efe8de84-48ec-4c68-8e71-fb90a4a36d77",
+        "name": "QuickShip",
+        "created_at": "2023-08-01T11:29:00.724Z",
+        "updated_at": "2023-08-01T00:47:59.910Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f3e8e1fd-4003-475e-a3fa-259197351b56",
+        "name": "SpeedyTrans",
+        "created_at": "2023-08-01T05:59:23.461Z",
+        "updated_at": "2023-07-31T13:21:19.080Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8a2901a6-7bf8-4ed8-8de2-5944be788516",
+        "name": "ExpressCargo",
+        "created_at": "2023-08-01T09:44:02.478Z",
+        "updated_at": "2023-08-01T08:23:02.557Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "supplier": [
+      {
+        "id": "962a1fa4-12ab-44bb-b022-43ba01b323d9",
+        "name": "ABC Suppliers",
+        "created_at": "2023-07-31T14:23:44.581Z",
+        "updated_at": "2023-07-31T21:41:30.214Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0ea31961-4106-4afd-be4c-283419227ef7",
+        "name": "XYZ Distributors",
+        "created_at": "2023-07-31T20:55:38.068Z",
+        "updated_at": "2023-07-31T19:55:33.090Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2c894dfd-5454-45af-ae92-1008cef07f5f",
+        "name": "Global Imports",
+        "created_at": "2023-08-01T02:09:04.573Z",
+        "updated_at": "2023-07-31T21:07:57.068Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "28334d91-befa-4419-aa0c-d2ef4b6e3761",
+        "name": "Local Traders",
+        "created_at": "2023-07-31T21:53:11.994Z",
+        "updated_at": "2023-07-31T17:10:40.240Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b5c5d78f-8ba0-4a30-ad2d-f42dd9b15343",
+        "name": "International Exporters",
+        "created_at": "2023-07-31T13:55:08.604Z",
+        "updated_at": "2023-08-01T04:53:54.883Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "reminder": [
+      {
+        "id": "6f6c836c-bd16-4bbe-8bf9-1d109cccab05",
+        "details": "Meeting at 10 AM",
+        "created_at": "2023-08-01T03:24:28.740Z",
+        "updated_at": "2023-07-31T14:42:54.002Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c9d10d92-ec8a-46c3-8c42-27e542b0a21d",
+        "details": "Submit report by end of day",
+        "created_at": "2023-07-31T19:59:37.265Z",
+        "updated_at": "2023-07-31T22:28:38.618Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "41c7bd93-2eb5-44fb-ba28-53c2c364b1c0",
+        "details": "Follow up with client",
+        "created_at": "2023-08-01T12:23:51.841Z",
+        "updated_at": "2023-08-01T00:40:53.414Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b01d84df-e111-4cba-a1c1-be07d2c0d4ed",
+        "details": "Review project progress",
+        "created_at": "2023-08-01T06:15:19.664Z",
+        "updated_at": "2023-07-31T13:07:33.867Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "912b1d70-e409-4f6b-a44f-ece51a89ee3f",
+        "details": "Send payment reminder",
+        "created_at": "2023-08-01T09:17:52.561Z",
+        "updated_at": "2023-07-31T21:23:20.066Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "vehicle": [
+      {
+        "id": "cc1bda97-fd75-4e3b-8089-3c7daea59655",
+        "info": "Sedan",
+        "created_at": "2023-08-01T03:35:48.400Z",
+        "updated_at": "2023-08-01T09:42:00.613Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "5e758a3c-7eb9-4ef4-a110-528bb93c7103",
+        "info": "SUV",
+        "created_at": "2023-08-01T02:09:04.315Z",
+        "updated_at": "2023-08-01T02:19:58.732Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "bc50bc02-444b-4d1f-9f48-db4c1111f19f",
+        "info": "Truck",
+        "created_at": "2023-07-31T16:52:20.982Z",
+        "updated_at": "2023-07-31T17:20:05.818Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "f4a8679c-bd99-42cc-aaf0-ac579d5d08cd",
+        "info": "Motorcycle",
+        "created_at": "2023-08-01T03:01:52.892Z",
+        "updated_at": "2023-08-01T09:45:54.343Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "3cbf63bc-349e-4c50-8826-e1af8f93e8e4",
+        "info": "Van",
+        "created_at": "2023-08-01T08:39:17.782Z",
+        "updated_at": "2023-07-31T13:40:33.000Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "trip": [
+      {
+        "id": "4d3b9cdf-6ca2-4ce6-b48c-d08c584b6c32",
+        "cost": 33131,
+        "created_at": "2023-08-01T02:40:12.284Z",
+        "updated_at": "2023-08-01T01:29:27.370Z",
+        "vehicle_id": "cc1bda97-fd75-4e3b-8089-3c7daea59655"
+      },
+      {
+        "id": "30edb33e-812c-499f-9aeb-71a369a3175f",
+        "cost": 96551,
+        "created_at": "2023-07-31T19:24:36.281Z",
+        "updated_at": "2023-07-31T17:04:17.069Z",
+        "vehicle_id": "3cbf63bc-349e-4c50-8826-e1af8f93e8e4"
+      },
+      {
+        "id": "6abdd7dd-6379-434b-9423-d388d2d27080",
+        "cost": 92472,
+        "created_at": "2023-08-01T08:38:00.928Z",
+        "updated_at": "2023-08-01T01:06:36.687Z",
+        "vehicle_id": "cc1bda97-fd75-4e3b-8089-3c7daea59655"
+      },
+      {
+        "id": "1e86ac23-7b1a-4488-9c68-7fb519d136f1",
+        "cost": 69342,
+        "created_at": "2023-07-31T19:38:54.719Z",
+        "updated_at": "2023-08-01T07:59:09.830Z",
+        "vehicle_id": "f4a8679c-bd99-42cc-aaf0-ac579d5d08cd"
+      },
+      {
+        "id": "927f03bd-ba6c-4c90-94c0-13513c8df432",
+        "cost": 40767,
+        "created_at": "2023-07-31T14:34:10.726Z",
+        "updated_at": "2023-08-01T05:29:03.115Z",
+        "vehicle_id": "5e758a3c-7eb9-4ef4-a110-528bb93c7103"
+      }
+    ],
+    "position": [
+      {
+        "id": "51e61a56-87ae-4bd6-9c37-1f1a9bdcea2c",
+        "location": "New York",
+        "created_at": "2023-07-31T18:49:48.116Z",
+        "updated_at": "2023-07-31T15:09:24.114Z",
+        "vehicle_id": "bc50bc02-444b-4d1f-9f48-db4c1111f19f"
+      },
+      {
+        "id": "1693e4c8-12b1-4922-8413-61dc59936b82",
+        "location": "London",
+        "created_at": "2023-08-01T09:48:17.898Z",
+        "updated_at": "2023-08-01T09:53:17.423Z",
+        "vehicle_id": "f4a8679c-bd99-42cc-aaf0-ac579d5d08cd"
+      },
+      {
+        "id": "3e0633d4-5848-4a53-b1a7-d80fb26e3ad8",
+        "location": "Tokyo",
+        "created_at": "2023-07-31T23:39:41.991Z",
+        "updated_at": "2023-07-31T22:34:01.354Z",
+        "vehicle_id": "cc1bda97-fd75-4e3b-8089-3c7daea59655"
+      },
+      {
+        "id": "d84e77e3-ab7a-4627-a568-9fa5793a6cf4",
+        "location": "Sydney",
+        "created_at": "2023-08-01T00:24:52.459Z",
+        "updated_at": "2023-08-01T06:39:22.117Z",
+        "vehicle_id": "bc50bc02-444b-4d1f-9f48-db4c1111f19f"
+      },
+      {
+        "id": "c6bb389f-2ce7-4c0a-852b-ec370442f45a",
+        "location": "Paris",
+        "created_at": "2023-08-01T02:40:40.304Z",
+        "updated_at": "2023-08-01T10:44:10.724Z",
+        "vehicle_id": "5e758a3c-7eb9-4ef4-a110-528bb93c7103"
+      }
+    ],
+    "loading_slip": [
+      {
+        "id": "fe934f95-834a-44b6-bd3c-ed6412ec3b48",
+        "details": "Product A - 100 units",
+        "created_at": "2023-08-01T02:27:11.886Z",
+        "updated_at": "2023-08-01T07:50:09.848Z",
+        "trip_id": "1e86ac23-7b1a-4488-9c68-7fb519d136f1"
+      },
+      {
+        "id": "210dd814-15bf-49c2-822c-f57035cb9abc",
+        "details": "Product B - 50 units",
+        "created_at": "2023-07-31T18:05:46.364Z",
+        "updated_at": "2023-08-01T05:40:19.246Z",
+        "trip_id": "30edb33e-812c-499f-9aeb-71a369a3175f"
+      },
+      {
+        "id": "eea30d06-4ca5-45c4-8697-40bc5bf8d733",
+        "details": "Product C - 200 units",
+        "created_at": "2023-08-01T05:08:52.205Z",
+        "updated_at": "2023-08-01T05:30:52.171Z",
+        "trip_id": "1e86ac23-7b1a-4488-9c68-7fb519d136f1"
+      },
+      {
+        "id": "9ee922b7-e5bb-41c3-aeff-08df2c4c5862",
+        "details": "Product D - 75 units",
+        "created_at": "2023-07-31T14:45:46.013Z",
+        "updated_at": "2023-07-31T23:21:37.583Z",
+        "trip_id": "1e86ac23-7b1a-4488-9c68-7fb519d136f1"
+      },
+      {
+        "id": "086b4bfa-ee63-4d06-bb6a-4245c6bf908d",
+        "details": "Product E - 150 units",
+        "created_at": "2023-07-31T20:11:07.389Z",
+        "updated_at": "2023-08-01T01:05:16.531Z",
+        "trip_id": "1e86ac23-7b1a-4488-9c68-7fb519d136f1"
+      }
+    ],
+    "fuel": [
+      {
+        "id": "10d69abf-af1e-434a-8e91-ee94720c340c",
+        "type": "Gasoline",
+        "price": 18440,
+        "created_at": "2023-07-31T21:49:11.739Z",
+        "updated_at": "2023-08-01T12:32:30.380Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "9ea2d44f-01d5-428d-9e59-b3b9efbb5015",
+        "type": "Diesel",
+        "price": 76297,
+        "created_at": "2023-07-31T16:32:57.756Z",
+        "updated_at": "2023-07-31T13:38:15.084Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "f42c072d-5e48-4aed-a509-a1139cee5c3b",
+        "type": "Electric",
+        "price": 4955,
+        "created_at": "2023-07-31T16:02:12.998Z",
+        "updated_at": "2023-07-31T20:10:26.659Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "6c37b67c-e839-42a7-8e7a-ae4f860c78c0",
+        "type": "Hybrid",
+        "price": 86072,
+        "created_at": "2023-07-31T14:10:07.080Z",
+        "updated_at": "2023-07-31T18:30:30.609Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "c3ff54f5-33a1-4e56-abb3-3cfcacdf6740",
+        "type": "Biofuel",
+        "price": 62697,
+        "created_at": "2023-07-31T21:13:01.718Z",
+        "updated_at": "2023-07-31T18:24:55.992Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "driver": [
+      {
+        "id": "d48a1d0b-ed29-4380-99eb-0e3b08ad591f",
+        "name": "John Smith",
+        "created_at": "2023-07-31T16:08:44.372Z",
+        "updated_at": "2023-07-31T19:29:12.280Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d1114ef0-e6ca-4422-ace2-57ac183076d3",
+        "name": "Jane Doe",
+        "created_at": "2023-07-31T21:50:12.394Z",
+        "updated_at": "2023-08-01T05:30:00.319Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2f4f05ee-6d5f-428c-af44-8f6bf0fd073e",
+        "name": "Michael Brown",
+        "created_at": "2023-07-31T15:46:45.766Z",
+        "updated_at": "2023-08-01T11:31:03.986Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "30c33a76-7584-4d2e-b225-18d658dac482",
+        "name": "Sarah Jones",
+        "created_at": "2023-08-01T09:07:14.728Z",
+        "updated_at": "2023-08-01T06:33:01.107Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fc58503d-802b-448b-a3a0-3f07aaf2da37",
+        "name": "David Wilson",
+        "created_at": "2023-07-31T17:58:03.018Z",
+        "updated_at": "2023-08-01T07:59:47.229Z",
+        "user_id": "user_entity_pk"
+      }
+    ]
+  },
+  {
+    "transporter": [
+      {
+        "id": "dc439731-618c-4d53-ad41-582153581e14",
+        "name": "ABC Transport",
+        "created_at": "2023-08-01T12:11:53.261Z",
+        "updated_at": "2023-07-31T22:12:50.822Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e6df8d16-e9b2-4f8d-985f-dffdf0a1329c",
+        "name": "XYZ Logistics",
+        "created_at": "2023-07-31T17:59:35.247Z",
+        "updated_at": "2023-08-01T10:42:20.378Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "381f7542-79c7-4177-8e9d-29e82509c3f7",
+        "name": "QuickShip",
+        "created_at": "2023-07-31T18:20:52.946Z",
+        "updated_at": "2023-07-31T13:47:01.502Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d3476dc0-03bc-42ea-a0b8-ab8006b17ca6",
+        "name": "SpeedyTrans",
+        "created_at": "2023-08-01T02:09:53.671Z",
+        "updated_at": "2023-08-01T11:51:38.287Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "289c48e5-3187-4d91-be05-cd4c88f67171",
+        "name": "ExpressCargo",
+        "created_at": "2023-07-31T21:33:08.923Z",
+        "updated_at": "2023-07-31T23:35:42.525Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "supplier": [
+      {
+        "id": "beed6364-e5f2-4b79-b804-9cde0779067a",
+        "name": "ABC Suppliers",
+        "created_at": "2023-07-31T22:54:06.646Z",
+        "updated_at": "2023-08-01T08:24:35.843Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7169fe7e-0903-472b-aa32-f65ca35f3e0e",
+        "name": "XYZ Distributors",
+        "created_at": "2023-07-31T21:41:53.028Z",
+        "updated_at": "2023-08-01T07:27:23.034Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9d5f5c21-7ce9-4ed2-ba71-fa2291647e61",
+        "name": "Global Imports",
+        "created_at": "2023-08-01T07:55:50.465Z",
+        "updated_at": "2023-08-01T02:46:53.197Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dbab337d-4291-4428-a846-56213170c265",
+        "name": "Local Traders",
+        "created_at": "2023-08-01T07:02:12.907Z",
+        "updated_at": "2023-07-31T14:37:40.499Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8aa86581-2860-4baf-98f9-1642ea1611a2",
+        "name": "International Exporters",
+        "created_at": "2023-07-31T23:07:18.917Z",
+        "updated_at": "2023-08-01T03:02:21.121Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "reminder": [
+      {
+        "id": "de3928f4-5301-4243-94b3-99612a74e1e1",
+        "details": "Meeting at 10 AM",
+        "created_at": "2023-07-31T21:38:59.897Z",
+        "updated_at": "2023-07-31T13:04:08.926Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d35304b8-cb1d-4416-9ea5-2cdffcf016ed",
+        "details": "Submit report by end of day",
+        "created_at": "2023-07-31T21:19:14.306Z",
+        "updated_at": "2023-07-31T21:50:34.022Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "eceab161-5e50-4d4b-b3a5-e894ce1f5441",
+        "details": "Follow up with client",
+        "created_at": "2023-07-31T23:37:11.948Z",
+        "updated_at": "2023-08-01T04:52:22.843Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "93fa7de9-8e68-459b-ae05-41ce3e0e8869",
+        "details": "Review project progress",
+        "created_at": "2023-08-01T10:59:55.025Z",
+        "updated_at": "2023-08-01T03:32:37.482Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "300a3012-29f7-4698-a171-e73daf9304e5",
+        "details": "Send payment reminder",
+        "created_at": "2023-07-31T21:24:34.648Z",
+        "updated_at": "2023-08-01T11:53:52.285Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "vehicle": [
+      {
+        "id": "3fb5f6da-6263-4be8-9c3f-a6f71740bea9",
+        "info": "Sedan",
+        "created_at": "2023-07-31T13:11:45.168Z",
+        "updated_at": "2023-07-31T16:00:56.839Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "17442fd3-9815-4396-8a59-f06c4b03283f",
+        "info": "SUV",
+        "created_at": "2023-08-01T04:55:45.805Z",
+        "updated_at": "2023-07-31T15:25:04.016Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "32ea8f83-b66d-4503-8c80-77817e45d897",
+        "info": "Truck",
+        "created_at": "2023-08-01T00:52:09.996Z",
+        "updated_at": "2023-07-31T19:19:04.953Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "85de3593-c6a9-4eff-a1b4-d77664212cd8",
+        "info": "Motorcycle",
+        "created_at": "2023-08-01T06:08:13.190Z",
+        "updated_at": "2023-07-31T12:42:56.691Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "16e203ef-2990-4c34-9303-c8c6b16cb4ad",
+        "info": "Van",
+        "created_at": "2023-08-01T08:17:11.809Z",
+        "updated_at": "2023-08-01T08:27:14.614Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "trip": [
+      {
+        "id": "60c6f5a2-e2ea-4beb-8fff-df71d5fe2d3b",
+        "cost": 74492,
+        "created_at": "2023-08-01T07:02:49.504Z",
+        "updated_at": "2023-07-31T17:16:28.409Z",
+        "vehicle_id": "3fb5f6da-6263-4be8-9c3f-a6f71740bea9"
+      },
+      {
+        "id": "da6a2f86-f69f-4e4e-915a-e61c4168084a",
+        "cost": 55531,
+        "created_at": "2023-07-31T19:52:40.562Z",
+        "updated_at": "2023-07-31T15:31:47.486Z",
+        "vehicle_id": "3fb5f6da-6263-4be8-9c3f-a6f71740bea9"
+      },
+      {
+        "id": "ba8d5a6e-5c3e-48a3-9545-c6c59c998617",
+        "cost": 56986,
+        "created_at": "2023-08-01T08:06:43.843Z",
+        "updated_at": "2023-08-01T05:36:46.715Z",
+        "vehicle_id": "16e203ef-2990-4c34-9303-c8c6b16cb4ad"
+      },
+      {
+        "id": "3425f70c-9b6c-4aa0-81a3-63cb9a5eedb4",
+        "cost": 45669,
+        "created_at": "2023-08-01T03:27:11.209Z",
+        "updated_at": "2023-08-01T04:01:16.695Z",
+        "vehicle_id": "32ea8f83-b66d-4503-8c80-77817e45d897"
+      },
+      {
+        "id": "acf2aa58-0d0f-4722-ae0b-c7d05dc8db89",
+        "cost": 46707,
+        "created_at": "2023-07-31T18:06:48.270Z",
+        "updated_at": "2023-08-01T09:03:49.090Z",
+        "vehicle_id": "32ea8f83-b66d-4503-8c80-77817e45d897"
+      }
+    ],
+    "position": [
+      {
+        "id": "d26c138e-88f9-4851-b676-4164806757b1",
+        "location": "New York",
+        "created_at": "2023-07-31T18:13:20.352Z",
+        "updated_at": "2023-08-01T09:50:41.985Z",
+        "vehicle_id": "17442fd3-9815-4396-8a59-f06c4b03283f"
+      },
+      {
+        "id": "35401379-4f96-4db9-a52c-43f8a68c5939",
+        "location": "London",
+        "created_at": "2023-07-31T18:34:43.858Z",
+        "updated_at": "2023-08-01T03:21:33.884Z",
+        "vehicle_id": "3fb5f6da-6263-4be8-9c3f-a6f71740bea9"
+      },
+      {
+        "id": "507d59db-bedf-4ada-bbf0-54b35d9981d0",
+        "location": "Tokyo",
+        "created_at": "2023-08-01T05:00:18.999Z",
+        "updated_at": "2023-08-01T04:31:42.844Z",
+        "vehicle_id": "85de3593-c6a9-4eff-a1b4-d77664212cd8"
+      },
+      {
+        "id": "b36a7e47-214c-4fd3-8a93-654f4b481c11",
+        "location": "Sydney",
+        "created_at": "2023-08-01T11:13:23.942Z",
+        "updated_at": "2023-08-01T05:02:30.193Z",
+        "vehicle_id": "3fb5f6da-6263-4be8-9c3f-a6f71740bea9"
+      },
+      {
+        "id": "a421d0eb-5337-4b39-ab35-65626fd0734d",
+        "location": "Paris",
+        "created_at": "2023-07-31T17:48:43.933Z",
+        "updated_at": "2023-07-31T13:20:22.074Z",
+        "vehicle_id": "16e203ef-2990-4c34-9303-c8c6b16cb4ad"
+      }
+    ],
+    "loading_slip": [
+      {
+        "id": "f92fa959-e67f-4373-832a-f6eb7319d7ce",
+        "details": "Product A - 100 units",
+        "created_at": "2023-07-31T14:57:11.305Z",
+        "updated_at": "2023-08-01T00:43:36.624Z",
+        "trip_id": "da6a2f86-f69f-4e4e-915a-e61c4168084a"
+      },
+      {
+        "id": "aa42e9bc-f68c-4b39-bd09-347ed5ced335",
+        "details": "Product B - 50 units",
+        "created_at": "2023-07-31T17:01:44.325Z",
+        "updated_at": "2023-07-31T19:20:34.683Z",
+        "trip_id": "3425f70c-9b6c-4aa0-81a3-63cb9a5eedb4"
+      },
+      {
+        "id": "2ba4806a-463f-4b51-9e43-799e33b19307",
+        "details": "Product C - 200 units",
+        "created_at": "2023-07-31T22:49:16.564Z",
+        "updated_at": "2023-08-01T01:55:29.215Z",
+        "trip_id": "60c6f5a2-e2ea-4beb-8fff-df71d5fe2d3b"
+      },
+      {
+        "id": "b734f696-1370-4a63-ae88-b16a4f66550f",
+        "details": "Product D - 75 units",
+        "created_at": "2023-07-31T12:51:39.554Z",
+        "updated_at": "2023-07-31T14:18:35.708Z",
+        "trip_id": "acf2aa58-0d0f-4722-ae0b-c7d05dc8db89"
+      },
+      {
+        "id": "b4b1d220-bbc7-4184-b1be-01f111e79227",
+        "details": "Product E - 150 units",
+        "created_at": "2023-08-01T03:17:55.041Z",
+        "updated_at": "2023-08-01T11:47:26.723Z",
+        "trip_id": "ba8d5a6e-5c3e-48a3-9545-c6c59c998617"
+      }
+    ],
+    "fuel": [
+      {
+        "id": "fcaee835-6595-4085-9bee-107d8ec34ac6",
+        "type": "Gasoline",
+        "price": 57472,
+        "created_at": "2023-08-01T00:12:48.759Z",
+        "updated_at": "2023-07-31T14:39:37.476Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "0b4ffb2b-738e-4390-b0bc-06cb71c2389f",
+        "type": "Diesel",
+        "price": 81864,
+        "created_at": "2023-07-31T16:26:13.666Z",
+        "updated_at": "2023-08-01T02:35:56.916Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "d1721b84-a367-4660-bbfd-fbdeaea76bc9",
+        "type": "Electric",
+        "price": 88086,
+        "created_at": "2023-08-01T05:17:52.790Z",
+        "updated_at": "2023-08-01T08:49:34.777Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "aff0189f-1d68-413f-9488-a5b6f1012a9f",
+        "type": "Hybrid",
+        "price": 25315,
+        "created_at": "2023-07-31T17:34:45.366Z",
+        "updated_at": "2023-08-01T11:17:59.594Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "4d90e5f6-326f-434d-b3e1-97fa236b5dc3",
+        "type": "Biofuel",
+        "price": 77544,
+        "created_at": "2023-08-01T07:42:36.223Z",
+        "updated_at": "2023-07-31T13:29:30.576Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "driver": [
+      {
+        "id": "81573a76-f57c-4e1d-b892-d3db8daa24bf",
+        "name": "John Smith",
+        "created_at": "2023-08-01T01:21:56.920Z",
+        "updated_at": "2023-07-31T17:02:33.515Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9ede5f07-8881-414b-8754-c4d5e7d3a377",
+        "name": "Jane Doe",
+        "created_at": "2023-08-01T04:49:24.634Z",
+        "updated_at": "2023-07-31T19:40:03.356Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "33a33949-3788-4408-988e-d5d791b1dec8",
+        "name": "Michael Brown",
+        "created_at": "2023-08-01T01:35:22.805Z",
+        "updated_at": "2023-08-01T04:07:49.789Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8eb89124-6c4b-495c-8442-a6e07e7673b0",
+        "name": "Sarah Jones",
+        "created_at": "2023-08-01T03:11:23.584Z",
+        "updated_at": "2023-08-01T06:44:06.651Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f78fcd24-0ebd-4c71-aebe-aa45f60f2394",
+        "name": "David Wilson",
+        "created_at": "2023-07-31T23:35:57.935Z",
+        "updated_at": "2023-08-01T00:46:30.807Z",
+        "user_id": "user_entity_pk"
+      }
+    ]
+  },
+  {
+    "transporter": [
+      {
+        "id": "11b6c4d5-7fba-4f68-90b0-a8e7245186d6",
+        "name": "ABC Transport",
+        "created_at": "2023-08-01T02:59:52.925Z",
+        "updated_at": "2023-08-01T05:00:35.446Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fcbfc2e2-7b86-4ed3-9b5b-2153a083dff9",
+        "name": "XYZ Logistics",
+        "created_at": "2023-07-31T21:55:05.465Z",
+        "updated_at": "2023-07-31T22:36:01.182Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "32b10098-1bda-40fa-bdfa-6873862884c1",
+        "name": "QuickShip",
+        "created_at": "2023-08-01T10:32:33.796Z",
+        "updated_at": "2023-08-01T12:12:01.531Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3cc97d7f-161a-4be2-90a1-80a74bd377f6",
+        "name": "SpeedyTrans",
+        "created_at": "2023-07-31T22:10:22.731Z",
+        "updated_at": "2023-08-01T02:11:23.538Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4bc39402-89dd-4e22-8bb8-15d3ed62c93d",
+        "name": "ExpressCargo",
+        "created_at": "2023-08-01T09:54:40.282Z",
+        "updated_at": "2023-08-01T12:29:07.620Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "supplier": [
+      {
+        "id": "bc0d6c2f-9021-4399-82d6-9de242c24265",
+        "name": "ABC Suppliers",
+        "created_at": "2023-07-31T15:39:53.787Z",
+        "updated_at": "2023-08-01T07:22:38.162Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "630368a6-4e30-4ae4-86fc-221b32165df9",
+        "name": "XYZ Distributors",
+        "created_at": "2023-07-31T18:40:01.208Z",
+        "updated_at": "2023-08-01T05:43:10.963Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6ae67105-4ecf-474a-a20a-53bacc6ebfc8",
+        "name": "Global Imports",
+        "created_at": "2023-07-31T21:14:21.962Z",
+        "updated_at": "2023-07-31T14:45:00.774Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "02fcb709-42c8-4d46-9532-2bad5e97d580",
+        "name": "Local Traders",
+        "created_at": "2023-07-31T17:26:17.880Z",
+        "updated_at": "2023-08-01T12:19:34.738Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c91582c3-68f5-4c87-b06b-865debc73778",
+        "name": "International Exporters",
+        "created_at": "2023-07-31T23:16:06.295Z",
+        "updated_at": "2023-07-31T20:11:41.635Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "reminder": [
+      {
+        "id": "18fb7e66-f780-46f2-8f14-54d9de94b3fb",
+        "details": "Meeting at 10 AM",
+        "created_at": "2023-07-31T17:36:48.590Z",
+        "updated_at": "2023-08-01T09:32:33.331Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "419f53c8-b241-4e0b-9ff4-8436ee1f6ffc",
+        "details": "Submit report by end of day",
+        "created_at": "2023-08-01T06:22:04.473Z",
+        "updated_at": "2023-07-31T17:13:10.278Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3bfdf782-631b-4bcf-adf6-e7d4dcc7edb6",
+        "details": "Follow up with client",
+        "created_at": "2023-07-31T13:27:28.434Z",
+        "updated_at": "2023-07-31T14:28:06.006Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7dffb6a2-599c-4707-9545-59c7d66d043f",
+        "details": "Review project progress",
+        "created_at": "2023-07-31T16:31:06.945Z",
+        "updated_at": "2023-08-01T06:11:01.918Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "70572503-5806-4077-ab3c-a1c9d4afde88",
+        "details": "Send payment reminder",
+        "created_at": "2023-08-01T03:54:31.638Z",
+        "updated_at": "2023-07-31T15:40:10.522Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "vehicle": [
+      {
+        "id": "dea426cb-5c98-4638-a948-363f02768782",
+        "info": "Sedan",
+        "created_at": "2023-08-01T08:29:14.469Z",
+        "updated_at": "2023-08-01T04:55:52.230Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "c8794834-38e2-410a-8915-62ff22bd6a24",
+        "info": "SUV",
+        "created_at": "2023-08-01T00:22:37.885Z",
+        "updated_at": "2023-07-31T13:33:35.174Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "20c0746c-0025-4ad7-af3a-fae3fec62e10",
+        "info": "Truck",
+        "created_at": "2023-07-31T18:30:32.397Z",
+        "updated_at": "2023-08-01T08:25:40.121Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "93b961eb-e71c-41c5-b793-0ff277b07e3b",
+        "info": "Motorcycle",
+        "created_at": "2023-08-01T11:39:14.183Z",
+        "updated_at": "2023-07-31T23:45:55.868Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "96eae8a5-052d-4d2e-91b5-95f71bf4ddf9",
+        "info": "Van",
+        "created_at": "2023-08-01T07:47:55.313Z",
+        "updated_at": "2023-07-31T20:38:07.083Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "trip": [
+      {
+        "id": "aefc4ec3-5a9c-43e8-bb17-0b706bbeb9eb",
+        "cost": 26404,
+        "created_at": "2023-07-31T23:47:48.918Z",
+        "updated_at": "2023-07-31T22:58:34.961Z",
+        "vehicle_id": "20c0746c-0025-4ad7-af3a-fae3fec62e10"
+      },
+      {
+        "id": "cf44f7dc-c346-437f-bc10-3e573949011e",
+        "cost": 58063,
+        "created_at": "2023-08-01T05:23:16.619Z",
+        "updated_at": "2023-08-01T04:08:53.035Z",
+        "vehicle_id": "20c0746c-0025-4ad7-af3a-fae3fec62e10"
+      },
+      {
+        "id": "767e8fa4-d446-4b86-857e-8c25c9564797",
+        "cost": 33195,
+        "created_at": "2023-07-31T17:47:45.716Z",
+        "updated_at": "2023-08-01T11:44:12.875Z",
+        "vehicle_id": "93b961eb-e71c-41c5-b793-0ff277b07e3b"
+      },
+      {
+        "id": "8e8d9531-d98b-49d3-91b8-ecce2d8346ce",
+        "cost": 53532,
+        "created_at": "2023-08-01T02:19:09.734Z",
+        "updated_at": "2023-08-01T07:43:50.514Z",
+        "vehicle_id": "dea426cb-5c98-4638-a948-363f02768782"
+      },
+      {
+        "id": "f9127ea0-7edc-449a-b64b-703d2b927dce",
+        "cost": 233,
+        "created_at": "2023-08-01T01:00:13.189Z",
+        "updated_at": "2023-08-01T05:57:47.006Z",
+        "vehicle_id": "96eae8a5-052d-4d2e-91b5-95f71bf4ddf9"
+      }
+    ],
+    "position": [
+      {
+        "id": "2fb86e13-e33e-4aa9-9854-7a6f9a693c98",
+        "location": "New York",
+        "created_at": "2023-07-31T14:48:01.927Z",
+        "updated_at": "2023-07-31T15:15:57.798Z",
+        "vehicle_id": "93b961eb-e71c-41c5-b793-0ff277b07e3b"
+      },
+      {
+        "id": "f1524bc9-dbed-4ca7-b0df-3f201136aed1",
+        "location": "London",
+        "created_at": "2023-07-31T20:42:15.828Z",
+        "updated_at": "2023-08-01T12:14:18.851Z",
+        "vehicle_id": "c8794834-38e2-410a-8915-62ff22bd6a24"
+      },
+      {
+        "id": "84a0b273-2f95-45ad-80fd-70115f26a981",
+        "location": "Tokyo",
+        "created_at": "2023-08-01T02:38:30.898Z",
+        "updated_at": "2023-08-01T06:23:34.941Z",
+        "vehicle_id": "93b961eb-e71c-41c5-b793-0ff277b07e3b"
+      },
+      {
+        "id": "7bfa247e-2b15-412d-9cb2-884ca215786b",
+        "location": "Sydney",
+        "created_at": "2023-08-01T08:37:51.741Z",
+        "updated_at": "2023-08-01T01:14:11.432Z",
+        "vehicle_id": "c8794834-38e2-410a-8915-62ff22bd6a24"
+      },
+      {
+        "id": "4b632954-756a-4b14-8049-f89512d506ec",
+        "location": "Paris",
+        "created_at": "2023-07-31T22:33:13.994Z",
+        "updated_at": "2023-08-01T07:44:43.425Z",
+        "vehicle_id": "93b961eb-e71c-41c5-b793-0ff277b07e3b"
+      }
+    ],
+    "loading_slip": [
+      {
+        "id": "a04726f4-09b4-4fc7-beae-da5889a16bd9",
+        "details": "Product A - 100 units",
+        "created_at": "2023-08-01T05:02:41.405Z",
+        "updated_at": "2023-07-31T12:50:28.283Z",
+        "trip_id": "f9127ea0-7edc-449a-b64b-703d2b927dce"
+      },
+      {
+        "id": "f5cec495-4b4f-4074-8689-c1b54d85d276",
+        "details": "Product B - 50 units",
+        "created_at": "2023-07-31T22:11:28.420Z",
+        "updated_at": "2023-07-31T23:43:18.058Z",
+        "trip_id": "767e8fa4-d446-4b86-857e-8c25c9564797"
+      },
+      {
+        "id": "5c2d5ec2-5e16-45d5-a836-145e43453569",
+        "details": "Product C - 200 units",
+        "created_at": "2023-07-31T17:25:35.419Z",
+        "updated_at": "2023-07-31T14:15:56.833Z",
+        "trip_id": "767e8fa4-d446-4b86-857e-8c25c9564797"
+      },
+      {
+        "id": "f3c9dd69-7e4e-4367-8489-35a59245fa12",
+        "details": "Product D - 75 units",
+        "created_at": "2023-07-31T18:20:05.344Z",
+        "updated_at": "2023-08-01T03:41:07.684Z",
+        "trip_id": "8e8d9531-d98b-49d3-91b8-ecce2d8346ce"
+      },
+      {
+        "id": "2f242cd7-0c9b-4c33-a937-1e117d1c6a1b",
+        "details": "Product E - 150 units",
+        "created_at": "2023-07-31T13:01:08.276Z",
+        "updated_at": "2023-07-31T23:49:54.047Z",
+        "trip_id": "767e8fa4-d446-4b86-857e-8c25c9564797"
+      }
+    ],
+    "fuel": [
+      {
+        "id": "59e0f50b-f8a0-4c6a-acf4-dcdc3adc686f",
+        "type": "Gasoline",
+        "price": 33359,
+        "created_at": "2023-07-31T14:15:01.008Z",
+        "updated_at": "2023-07-31T20:31:08.774Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "d5ad1395-08a6-441c-9744-693461f2f4ca",
+        "type": "Diesel",
+        "price": 84674,
+        "created_at": "2023-07-31T22:25:07.390Z",
+        "updated_at": "2023-08-01T09:25:42.552Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "51da2de9-3caf-4ad4-90ac-a2db6fc31001",
+        "type": "Electric",
+        "price": 40335,
+        "created_at": "2023-08-01T09:26:51.124Z",
+        "updated_at": "2023-07-31T15:06:19.433Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "96f121a9-a591-4b09-be24-dfe7dc857c23",
+        "type": "Hybrid",
+        "price": 19619,
+        "created_at": "2023-07-31T22:29:39.991Z",
+        "updated_at": "2023-08-01T10:15:11.129Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "a6575839-8b4a-49f0-8b19-e1a2a64f582b",
+        "type": "Biofuel",
+        "price": 1439,
+        "created_at": "2023-07-31T16:27:43.276Z",
+        "updated_at": "2023-07-31T20:15:03.377Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "driver": [
+      {
+        "id": "2fbb24be-dcee-4020-904b-668d091f10e3",
+        "name": "John Smith",
+        "created_at": "2023-08-01T08:40:58.945Z",
+        "updated_at": "2023-08-01T07:44:12.135Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7e5ecd57-d8ec-43ca-ac08-4a5514a68c3c",
+        "name": "Jane Doe",
+        "created_at": "2023-07-31T15:05:31.778Z",
+        "updated_at": "2023-07-31T14:55:10.764Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "636cb910-2d1d-4c44-a947-afb3f4084778",
+        "name": "Michael Brown",
+        "created_at": "2023-08-01T08:42:04.093Z",
+        "updated_at": "2023-07-31T18:14:17.733Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3e0fbffe-b586-4d24-a799-7c1a65801b26",
+        "name": "Sarah Jones",
+        "created_at": "2023-07-31T19:31:15.442Z",
+        "updated_at": "2023-07-31T15:58:26.327Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "90f3ccc9-e0da-4961-8fab-66f8dcf87d81",
+        "name": "David Wilson",
+        "created_at": "2023-07-31T22:00:57.971Z",
+        "updated_at": "2023-08-01T05:03:21.470Z",
+        "user_id": "user_entity_pk"
+      }
+    ]
+  },
+  {
+    "transporter": [
+      {
+        "id": "1b46672a-9adb-44ca-9053-2aad897ffdd7",
+        "name": "ABC Transport",
+        "created_at": "2023-07-31T19:21:59.399Z",
+        "updated_at": "2023-08-01T09:25:37.523Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9f360b7e-802a-4d55-bb59-96647ac2f181",
+        "name": "XYZ Logistics",
+        "created_at": "2023-08-01T00:50:27.487Z",
+        "updated_at": "2023-08-01T09:29:35.776Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a8620dcc-09b6-453f-a603-ac36b5245e70",
+        "name": "QuickShip",
+        "created_at": "2023-08-01T02:45:12.309Z",
+        "updated_at": "2023-08-01T07:40:23.310Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "32c7c17b-b7a3-4252-af2f-8b8af207cabe",
+        "name": "SpeedyTrans",
+        "created_at": "2023-08-01T09:11:32.927Z",
+        "updated_at": "2023-08-01T10:36:00.025Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c802727f-c631-437c-a680-bb51f00e11dc",
+        "name": "ExpressCargo",
+        "created_at": "2023-07-31T14:36:18.094Z",
+        "updated_at": "2023-08-01T00:57:23.694Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "supplier": [
+      {
+        "id": "75610b01-6830-408a-8f9b-b84b566a4740",
+        "name": "ABC Suppliers",
+        "created_at": "2023-07-31T14:30:46.083Z",
+        "updated_at": "2023-07-31T16:31:47.120Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3c735669-12df-4bb2-acba-7c9f6f8afe04",
+        "name": "XYZ Distributors",
+        "created_at": "2023-08-01T05:40:08.025Z",
+        "updated_at": "2023-07-31T22:36:08.310Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2d6c9ff5-c258-45f9-a4c0-57be321020d4",
+        "name": "Global Imports",
+        "created_at": "2023-08-01T10:51:39.915Z",
+        "updated_at": "2023-08-01T03:35:29.645Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "488b7885-0ab9-438e-93f8-5963101ffd98",
+        "name": "Local Traders",
+        "created_at": "2023-08-01T08:07:13.355Z",
+        "updated_at": "2023-07-31T19:56:33.602Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c8e9b44a-bbe1-4d7d-bdd3-60921e77154b",
+        "name": "International Exporters",
+        "created_at": "2023-07-31T23:20:03.910Z",
+        "updated_at": "2023-07-31T15:39:05.360Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "reminder": [
+      {
+        "id": "dfa4878c-39d7-4947-b200-2b5eb020e3ad",
+        "details": "Meeting at 10 AM",
+        "created_at": "2023-07-31T16:46:02.264Z",
+        "updated_at": "2023-07-31T17:36:09.752Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b439240e-5c0a-47c8-9a26-fb69fa43c308",
+        "details": "Submit report by end of day",
+        "created_at": "2023-07-31T16:24:58.640Z",
+        "updated_at": "2023-08-01T11:19:38.244Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e56fb552-3871-4190-81e3-728be8b6fe84",
+        "details": "Follow up with client",
+        "created_at": "2023-08-01T05:37:35.616Z",
+        "updated_at": "2023-07-31T21:18:18.056Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ad89fdb0-bf56-4b41-afdb-980b2fe7247d",
+        "details": "Review project progress",
+        "created_at": "2023-08-01T04:37:01.552Z",
+        "updated_at": "2023-08-01T06:40:21.300Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f0e2c16a-7725-457a-bfde-fc2f6324796e",
+        "details": "Send payment reminder",
+        "created_at": "2023-07-31T17:25:32.945Z",
+        "updated_at": "2023-08-01T12:26:37.559Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "vehicle": [
+      {
+        "id": "6d0b0d2a-2c83-4ce8-bde0-7502e032f9a0",
+        "info": "Sedan",
+        "created_at": "2023-07-31T12:47:00.968Z",
+        "updated_at": "2023-08-01T01:12:03.636Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "1c4cd5d0-8768-4c3c-8574-f5bff85da1f6",
+        "info": "SUV",
+        "created_at": "2023-07-31T20:41:47.826Z",
+        "updated_at": "2023-08-01T06:09:03.151Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "75490ce0-6b6b-4741-bf6d-718af0c62882",
+        "info": "Truck",
+        "created_at": "2023-08-01T06:46:30.539Z",
+        "updated_at": "2023-07-31T23:06:55.369Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "46219393-768d-4465-b735-48c4262357fd",
+        "info": "Motorcycle",
+        "created_at": "2023-07-31T23:32:12.566Z",
+        "updated_at": "2023-07-31T20:17:42.973Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "bd6800dc-a282-427f-ab06-a16da9ebb974",
+        "info": "Van",
+        "created_at": "2023-08-01T01:08:36.803Z",
+        "updated_at": "2023-08-01T06:19:24.986Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "trip": [
+      {
+        "id": "14bf9785-0f35-453e-bd53-818e9fb1d75c",
+        "cost": 12440,
+        "created_at": "2023-08-01T10:01:58.520Z",
+        "updated_at": "2023-07-31T20:55:15.336Z",
+        "vehicle_id": "bd6800dc-a282-427f-ab06-a16da9ebb974"
+      },
+      {
+        "id": "faf850c7-bbe2-4811-a961-04ebcf917541",
+        "cost": 94857,
+        "created_at": "2023-07-31T22:23:49.691Z",
+        "updated_at": "2023-07-31T20:54:09.788Z",
+        "vehicle_id": "1c4cd5d0-8768-4c3c-8574-f5bff85da1f6"
+      },
+      {
+        "id": "938e2737-d98c-417c-a3df-cbc05a8e11ec",
+        "cost": 26038,
+        "created_at": "2023-08-01T03:08:58.493Z",
+        "updated_at": "2023-07-31T22:46:38.350Z",
+        "vehicle_id": "46219393-768d-4465-b735-48c4262357fd"
+      },
+      {
+        "id": "c3f148c2-2b70-4a4b-a632-98e65032b186",
+        "cost": 17510,
+        "created_at": "2023-07-31T13:42:56.743Z",
+        "updated_at": "2023-08-01T08:43:59.615Z",
+        "vehicle_id": "46219393-768d-4465-b735-48c4262357fd"
+      },
+      {
+        "id": "9f212a92-4227-4954-98e8-7c3cfa6464d8",
+        "cost": 66189,
+        "created_at": "2023-07-31T17:49:47.984Z",
+        "updated_at": "2023-08-01T06:44:37.287Z",
+        "vehicle_id": "6d0b0d2a-2c83-4ce8-bde0-7502e032f9a0"
+      }
+    ],
+    "position": [
+      {
+        "id": "4e6f3fef-2fa0-4170-9bb6-6e978abba1ad",
+        "location": "New York",
+        "created_at": "2023-07-31T23:34:44.809Z",
+        "updated_at": "2023-07-31T18:27:36.838Z",
+        "vehicle_id": "75490ce0-6b6b-4741-bf6d-718af0c62882"
+      },
+      {
+        "id": "238165d8-645d-4177-a683-a1b437c29c34",
+        "location": "London",
+        "created_at": "2023-07-31T16:19:16.587Z",
+        "updated_at": "2023-08-01T12:21:12.333Z",
+        "vehicle_id": "6d0b0d2a-2c83-4ce8-bde0-7502e032f9a0"
+      },
+      {
+        "id": "26451cdb-ffe1-4afe-83a6-c8008f7d088b",
+        "location": "Tokyo",
+        "created_at": "2023-07-31T18:05:12.752Z",
+        "updated_at": "2023-07-31T15:19:47.346Z",
+        "vehicle_id": "75490ce0-6b6b-4741-bf6d-718af0c62882"
+      },
+      {
+        "id": "411fec3f-ef42-4ea0-8fb1-4c824d9c11b5",
+        "location": "Sydney",
+        "created_at": "2023-08-01T10:49:06.064Z",
+        "updated_at": "2023-07-31T18:00:22.619Z",
+        "vehicle_id": "46219393-768d-4465-b735-48c4262357fd"
+      },
+      {
+        "id": "74a9b8bb-c1f4-4ad5-975a-0aa9aa8f5adb",
+        "location": "Paris",
+        "created_at": "2023-07-31T14:29:11.373Z",
+        "updated_at": "2023-07-31T15:28:36.615Z",
+        "vehicle_id": "75490ce0-6b6b-4741-bf6d-718af0c62882"
+      }
+    ],
+    "loading_slip": [
+      {
+        "id": "20ced1c3-98ea-4569-bdc7-7eb00be4b388",
+        "details": "Product A - 100 units",
+        "created_at": "2023-08-01T02:51:57.341Z",
+        "updated_at": "2023-07-31T22:32:09.025Z",
+        "trip_id": "938e2737-d98c-417c-a3df-cbc05a8e11ec"
+      },
+      {
+        "id": "3ff6b171-8684-4586-aa89-c77c535959f9",
+        "details": "Product B - 50 units",
+        "created_at": "2023-08-01T00:18:33.702Z",
+        "updated_at": "2023-07-31T16:54:32.172Z",
+        "trip_id": "14bf9785-0f35-453e-bd53-818e9fb1d75c"
+      },
+      {
+        "id": "97689783-cde0-4cd4-864c-6cc1f62df779",
+        "details": "Product C - 200 units",
+        "created_at": "2023-08-01T04:21:16.596Z",
+        "updated_at": "2023-08-01T09:03:43.026Z",
+        "trip_id": "c3f148c2-2b70-4a4b-a632-98e65032b186"
+      },
+      {
+        "id": "c1381fb1-f221-4584-b620-126db5782060",
+        "details": "Product D - 75 units",
+        "created_at": "2023-08-01T06:35:10.832Z",
+        "updated_at": "2023-07-31T17:57:49.716Z",
+        "trip_id": "c3f148c2-2b70-4a4b-a632-98e65032b186"
+      },
+      {
+        "id": "2daca05c-3056-45bb-8569-4fdf8d741142",
+        "details": "Product E - 150 units",
+        "created_at": "2023-07-31T12:58:27.964Z",
+        "updated_at": "2023-08-01T07:29:03.003Z",
+        "trip_id": "938e2737-d98c-417c-a3df-cbc05a8e11ec"
+      }
+    ],
+    "fuel": [
+      {
+        "id": "793fb5c0-b12e-4726-b5d8-311e447dbbeb",
+        "type": "Gasoline",
+        "price": 40826,
+        "created_at": "2023-08-01T06:25:25.944Z",
+        "updated_at": "2023-08-01T00:31:19.229Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "a83c93e3-1ec3-4a23-b8ed-ebf32d3f0959",
+        "type": "Diesel",
+        "price": 66904,
+        "created_at": "2023-08-01T12:25:55.396Z",
+        "updated_at": "2023-07-31T22:50:02.708Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "035e7306-610f-48df-889d-1af172dc26f1",
+        "type": "Electric",
+        "price": 52906,
+        "created_at": "2023-08-01T04:58:27.159Z",
+        "updated_at": "2023-07-31T14:26:09.653Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "960b30f4-b048-4c44-aebb-11e7eda44c92",
+        "type": "Hybrid",
+        "price": 72617,
+        "created_at": "2023-08-01T08:16:33.830Z",
+        "updated_at": "2023-08-01T09:24:21.231Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "65b686dd-7030-478f-865c-3a102476bfb2",
+        "type": "Biofuel",
+        "price": 13660,
+        "created_at": "2023-07-31T12:35:22.835Z",
+        "updated_at": "2023-08-01T08:15:18.088Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "driver": [
+      {
+        "id": "c21eafc9-e0e9-447f-8549-834f8dd8cd94",
+        "name": "John Smith",
+        "created_at": "2023-08-01T04:53:00.286Z",
+        "updated_at": "2023-07-31T21:33:59.715Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "169bbe7a-083e-4a19-a8c1-6e2f6f15dca0",
+        "name": "Jane Doe",
+        "created_at": "2023-08-01T08:23:32.848Z",
+        "updated_at": "2023-08-01T02:22:04.267Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a5149f39-01a3-4d8c-a152-04f063f52e52",
+        "name": "Michael Brown",
+        "created_at": "2023-08-01T04:28:57.617Z",
+        "updated_at": "2023-08-01T10:06:24.181Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5156baa8-0680-4632-889a-0ae4ba81f06d",
+        "name": "Sarah Jones",
+        "created_at": "2023-08-01T10:09:08.171Z",
+        "updated_at": "2023-08-01T02:22:48.241Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9fd56d1c-2453-4fa3-a6ed-31c1e484382f",
+        "name": "David Wilson",
+        "created_at": "2023-07-31T17:05:53.711Z",
+        "updated_at": "2023-07-31T23:18:00.319Z",
+        "user_id": "user_entity_pk"
+      }
+    ]
+  },
+  {
+    "transporter": [
+      {
+        "id": "38f81975-b733-404e-9607-988df5d34268",
+        "name": "ABC Transport",
+        "created_at": "2023-08-01T04:58:41.792Z",
+        "updated_at": "2023-08-01T00:51:26.736Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0f5d3067-4a63-4e46-869c-a49c5edb19f2",
+        "name": "XYZ Logistics",
+        "created_at": "2023-07-31T12:46:56.504Z",
+        "updated_at": "2023-07-31T15:11:14.259Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7e793f71-55cc-4159-aa3f-9e8166d596e1",
+        "name": "QuickShip",
+        "created_at": "2023-08-01T00:27:09.464Z",
+        "updated_at": "2023-07-31T18:30:42.696Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9f9c08a6-978c-45bf-8703-01c2791c0dfd",
+        "name": "SpeedyTrans",
+        "created_at": "2023-07-31T21:10:26.803Z",
+        "updated_at": "2023-08-01T00:24:50.748Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1c658b61-9619-4bf7-8b36-e9dca42761a6",
+        "name": "ExpressCargo",
+        "created_at": "2023-07-31T17:57:12.516Z",
+        "updated_at": "2023-08-01T08:17:13.570Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "supplier": [
+      {
+        "id": "901fd2c6-d047-41ad-9a45-ef6fa4c464dc",
+        "name": "ABC Suppliers",
+        "created_at": "2023-07-31T23:02:35.326Z",
+        "updated_at": "2023-08-01T12:11:16.782Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e28c0bbf-f3f9-4c49-9e07-7b45835616fd",
+        "name": "XYZ Distributors",
+        "created_at": "2023-07-31T13:10:24.997Z",
+        "updated_at": "2023-08-01T05:16:16.438Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4f41f782-ebce-4336-b5fc-aa8a9ebea5ad",
+        "name": "Global Imports",
+        "created_at": "2023-07-31T20:06:18.670Z",
+        "updated_at": "2023-08-01T10:57:42.624Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1d27fdc2-9b47-42c0-a8dc-b746ed644c67",
+        "name": "Local Traders",
+        "created_at": "2023-07-31T21:03:27.591Z",
+        "updated_at": "2023-08-01T05:17:05.784Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9e013b5d-ee6d-4ec8-a28e-416ee91490c7",
+        "name": "International Exporters",
+        "created_at": "2023-07-31T20:08:24.373Z",
+        "updated_at": "2023-07-31T16:45:21.522Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "reminder": [
+      {
+        "id": "818d7003-c713-4660-88ff-fe29631f4900",
+        "details": "Meeting at 10 AM",
+        "created_at": "2023-07-31T13:39:34.849Z",
+        "updated_at": "2023-07-31T17:20:07.240Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9160bdce-ca21-4906-9ab8-f2712b8f40b8",
+        "details": "Submit report by end of day",
+        "created_at": "2023-08-01T01:19:56.757Z",
+        "updated_at": "2023-08-01T05:52:58.067Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8311fc2b-eb27-4e81-bcfa-02f96896b0fb",
+        "details": "Follow up with client",
+        "created_at": "2023-07-31T22:12:10.248Z",
+        "updated_at": "2023-07-31T16:51:16.789Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "94342c44-9857-4a82-8998-0b018d3584e2",
+        "details": "Review project progress",
+        "created_at": "2023-08-01T07:29:15.130Z",
+        "updated_at": "2023-07-31T14:45:03.815Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "72f2cad6-1db5-4b4a-a127-feede60638b0",
+        "details": "Send payment reminder",
+        "created_at": "2023-07-31T18:32:12.230Z",
+        "updated_at": "2023-08-01T01:13:25.078Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "vehicle": [
+      {
+        "id": "49af3455-3a43-417f-9388-31e109c83da4",
+        "info": "Sedan",
+        "created_at": "2023-08-01T09:46:12.888Z",
+        "updated_at": "2023-07-31T18:30:38.338Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "3b19a16e-cf29-4102-8f83-028f5b531ad2",
+        "info": "SUV",
+        "created_at": "2023-07-31T15:32:14.264Z",
+        "updated_at": "2023-08-01T03:54:51.698Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "21893205-8a6a-4617-961c-b001e06b8e66",
+        "info": "Truck",
+        "created_at": "2023-08-01T11:23:40.822Z",
+        "updated_at": "2023-07-31T13:23:41.872Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "14d66caa-9d1f-465c-9231-d9ce291652bc",
+        "info": "Motorcycle",
+        "created_at": "2023-08-01T00:17:13.981Z",
+        "updated_at": "2023-07-31T22:29:54.019Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "532766e9-4252-48d0-8fdb-98e34cf7b6c0",
+        "info": "Van",
+        "created_at": "2023-08-01T06:12:25.659Z",
+        "updated_at": "2023-07-31T18:31:25.929Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "trip": [
+      {
+        "id": "1dd9e252-2c0b-4126-849a-6ecfe9fa465c",
+        "cost": 25171,
+        "created_at": "2023-08-01T07:34:20.730Z",
+        "updated_at": "2023-07-31T21:08:58.019Z",
+        "vehicle_id": "14d66caa-9d1f-465c-9231-d9ce291652bc"
+      },
+      {
+        "id": "dd196143-833f-4d2f-b006-c70063df45bc",
+        "cost": 74430,
+        "created_at": "2023-08-01T09:26:06.172Z",
+        "updated_at": "2023-07-31T17:15:29.300Z",
+        "vehicle_id": "3b19a16e-cf29-4102-8f83-028f5b531ad2"
+      },
+      {
+        "id": "892e5c5b-8921-44a2-9af2-9bfb73d1cec6",
+        "cost": 20694,
+        "created_at": "2023-07-31T21:10:49.227Z",
+        "updated_at": "2023-07-31T16:20:26.476Z",
+        "vehicle_id": "49af3455-3a43-417f-9388-31e109c83da4"
+      },
+      {
+        "id": "20f40aa3-92ef-468c-b8c6-0231a38478f0",
+        "cost": 75957,
+        "created_at": "2023-07-31T22:23:15.295Z",
+        "updated_at": "2023-08-01T06:01:56.586Z",
+        "vehicle_id": "21893205-8a6a-4617-961c-b001e06b8e66"
+      },
+      {
+        "id": "6de31ea8-2ba4-4feb-b650-c648cb751ac2",
+        "cost": 99580,
+        "created_at": "2023-07-31T15:46:46.227Z",
+        "updated_at": "2023-08-01T04:43:23.621Z",
+        "vehicle_id": "49af3455-3a43-417f-9388-31e109c83da4"
+      }
+    ],
+    "position": [
+      {
+        "id": "2e1f8a9e-5b8c-4917-b5fe-7837f3810bf5",
+        "location": "New York",
+        "created_at": "2023-08-01T02:53:04.295Z",
+        "updated_at": "2023-08-01T11:40:29.546Z",
+        "vehicle_id": "21893205-8a6a-4617-961c-b001e06b8e66"
+      },
+      {
+        "id": "5f187d49-7740-4520-b773-e4ac125fb2f2",
+        "location": "London",
+        "created_at": "2023-07-31T16:43:44.594Z",
+        "updated_at": "2023-08-01T08:52:42.115Z",
+        "vehicle_id": "49af3455-3a43-417f-9388-31e109c83da4"
+      },
+      {
+        "id": "9422b896-a193-4bc8-b685-71f93b7af2d9",
+        "location": "Tokyo",
+        "created_at": "2023-08-01T00:48:40.140Z",
+        "updated_at": "2023-07-31T15:49:45.201Z",
+        "vehicle_id": "21893205-8a6a-4617-961c-b001e06b8e66"
+      },
+      {
+        "id": "1b8cd4a0-e725-4f43-914e-415e4caf308b",
+        "location": "Sydney",
+        "created_at": "2023-08-01T06:52:06.488Z",
+        "updated_at": "2023-07-31T17:29:16.853Z",
+        "vehicle_id": "3b19a16e-cf29-4102-8f83-028f5b531ad2"
+      },
+      {
+        "id": "2627013a-7c09-43fd-8049-24d91de8650b",
+        "location": "Paris",
+        "created_at": "2023-08-01T00:55:38.400Z",
+        "updated_at": "2023-07-31T13:52:13.359Z",
+        "vehicle_id": "532766e9-4252-48d0-8fdb-98e34cf7b6c0"
+      }
+    ],
+    "loading_slip": [
+      {
+        "id": "59342924-463a-452a-8069-294a2dcbe751",
+        "details": "Product A - 100 units",
+        "created_at": "2023-07-31T14:57:07.930Z",
+        "updated_at": "2023-08-01T07:56:19.223Z",
+        "trip_id": "1dd9e252-2c0b-4126-849a-6ecfe9fa465c"
+      },
+      {
+        "id": "8aa3b4fe-3ccf-4a31-8862-da6303603350",
+        "details": "Product B - 50 units",
+        "created_at": "2023-07-31T22:08:49.205Z",
+        "updated_at": "2023-08-01T11:31:51.167Z",
+        "trip_id": "20f40aa3-92ef-468c-b8c6-0231a38478f0"
+      },
+      {
+        "id": "9a691d98-dc8a-44f8-9560-042f8c865ae8",
+        "details": "Product C - 200 units",
+        "created_at": "2023-08-01T10:50:37.286Z",
+        "updated_at": "2023-07-31T20:52:40.024Z",
+        "trip_id": "dd196143-833f-4d2f-b006-c70063df45bc"
+      },
+      {
+        "id": "cd60deaf-a3ab-48d9-a0c4-0f776277fdf1",
+        "details": "Product D - 75 units",
+        "created_at": "2023-07-31T22:45:29.186Z",
+        "updated_at": "2023-08-01T09:51:41.951Z",
+        "trip_id": "20f40aa3-92ef-468c-b8c6-0231a38478f0"
+      },
+      {
+        "id": "3f41c276-9346-45d4-8417-76e8ac176e08",
+        "details": "Product E - 150 units",
+        "created_at": "2023-07-31T15:54:48.785Z",
+        "updated_at": "2023-07-31T13:42:13.711Z",
+        "trip_id": "1dd9e252-2c0b-4126-849a-6ecfe9fa465c"
+      }
+    ],
+    "fuel": [
+      {
+        "id": "e560cde1-a298-4071-b973-8e782229f82a",
+        "type": "Gasoline",
+        "price": 84819,
+        "created_at": "2023-07-31T20:50:44.408Z",
+        "updated_at": "2023-08-01T08:17:12.797Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "0a9d28d5-1368-4101-8acf-ccb39781467f",
+        "type": "Diesel",
+        "price": 32828,
+        "created_at": "2023-07-31T20:39:06.686Z",
+        "updated_at": "2023-07-31T20:41:32.098Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "dd82a3e7-b185-4af6-bc67-ef35a999acba",
+        "type": "Electric",
+        "price": 24953,
+        "created_at": "2023-07-31T22:41:19.778Z",
+        "updated_at": "2023-08-01T09:46:27.685Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "f66cf563-c267-497c-9a59-156d54cafd24",
+        "type": "Hybrid",
+        "price": 56482,
+        "created_at": "2023-08-01T02:12:01.330Z",
+        "updated_at": "2023-07-31T20:54:02.023Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "ec03ebfe-7a1c-492b-b161-464b2db465b3",
+        "type": "Biofuel",
+        "price": 67329,
+        "created_at": "2023-08-01T00:22:19.667Z",
+        "updated_at": "2023-08-01T00:13:38.907Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "driver": [
+      {
+        "id": "951108e1-2ae5-483f-8cdc-1b2066d3205c",
+        "name": "John Smith",
+        "created_at": "2023-08-01T08:42:42.438Z",
+        "updated_at": "2023-07-31T19:35:20.433Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f13ddf2c-e50b-4aa1-9253-571408fcd69a",
+        "name": "Jane Doe",
+        "created_at": "2023-08-01T07:56:21.899Z",
+        "updated_at": "2023-07-31T13:08:55.039Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bee4d603-6556-4e19-8105-d20c363c5951",
+        "name": "Michael Brown",
+        "created_at": "2023-08-01T10:53:19.695Z",
+        "updated_at": "2023-07-31T14:17:28.989Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4ce3961a-ef97-494b-b4a8-c1a09b0522f9",
+        "name": "Sarah Jones",
+        "created_at": "2023-07-31T20:22:52.023Z",
+        "updated_at": "2023-08-01T03:05:10.784Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2652cbaa-ecb4-46c5-ba5c-4408e7d8285c",
+        "name": "David Wilson",
+        "created_at": "2023-07-31T16:10:18.379Z",
+        "updated_at": "2023-08-01T02:04:06.139Z",
+        "user_id": "user_entity_pk"
+      }
+    ]
+  },
+  {
+    "transporter": [
+      {
+        "id": "5f3cf064-9046-4f7d-a507-45b32c0c579f",
+        "name": "ABC Transport",
+        "created_at": "2023-07-31T20:47:03.465Z",
+        "updated_at": "2023-08-01T08:59:54.157Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "05194fc2-76e4-4b42-bae9-df505f35c26e",
+        "name": "XYZ Logistics",
+        "created_at": "2023-07-31T20:17:18.999Z",
+        "updated_at": "2023-07-31T15:23:59.495Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b1efa929-918c-49ef-98d9-9c0e19487d78",
+        "name": "QuickShip",
+        "created_at": "2023-07-31T13:00:24.783Z",
+        "updated_at": "2023-07-31T21:35:03.093Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "98c94639-077e-4cdc-b4f0-c566e6dd6a57",
+        "name": "SpeedyTrans",
+        "created_at": "2023-07-31T21:47:39.065Z",
+        "updated_at": "2023-08-01T02:47:36.078Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "511bba86-ae80-47e6-8407-6b27a2c5ea8f",
+        "name": "ExpressCargo",
+        "created_at": "2023-08-01T06:35:55.681Z",
+        "updated_at": "2023-07-31T20:14:44.081Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "supplier": [
+      {
+        "id": "8922df0f-3bed-4cde-93c8-fb851eedceef",
+        "name": "ABC Suppliers",
+        "created_at": "2023-08-01T11:12:45.358Z",
+        "updated_at": "2023-07-31T14:38:40.271Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "abafad84-4307-446b-a908-c879cd168b2e",
+        "name": "XYZ Distributors",
+        "created_at": "2023-08-01T00:37:55.378Z",
+        "updated_at": "2023-08-01T05:44:27.581Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "59ae6c85-f1dc-4da0-8507-ed7cf956d561",
+        "name": "Global Imports",
+        "created_at": "2023-07-31T17:03:08.717Z",
+        "updated_at": "2023-07-31T18:13:33.110Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6a0861a3-53c8-4c66-b0f1-21a1474a9b1e",
+        "name": "Local Traders",
+        "created_at": "2023-08-01T12:19:15.657Z",
+        "updated_at": "2023-08-01T06:04:42.770Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c7d0acde-6c86-4598-820f-7861d288a2ce",
+        "name": "International Exporters",
+        "created_at": "2023-08-01T03:10:27.069Z",
+        "updated_at": "2023-08-01T11:30:39.278Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "reminder": [
+      {
+        "id": "3e3ae744-be48-4089-a801-6ddecff515b4",
+        "details": "Meeting at 10 AM",
+        "created_at": "2023-07-31T22:02:07.020Z",
+        "updated_at": "2023-08-01T09:06:47.734Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f96a37cc-4261-4a55-a142-37fd270a2703",
+        "details": "Submit report by end of day",
+        "created_at": "2023-08-01T00:44:10.236Z",
+        "updated_at": "2023-07-31T23:30:08.720Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0658bc39-d24b-4737-870b-fd239f01a229",
+        "details": "Follow up with client",
+        "created_at": "2023-07-31T18:18:05.600Z",
+        "updated_at": "2023-08-01T10:52:43.038Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "50a107aa-624c-4507-a79e-7d0fd91116bd",
+        "details": "Review project progress",
+        "created_at": "2023-08-01T06:22:42.064Z",
+        "updated_at": "2023-07-31T18:09:09.714Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "880ed7e8-8d29-40ec-9603-85158783c67b",
+        "details": "Send payment reminder",
+        "created_at": "2023-07-31T16:57:35.490Z",
+        "updated_at": "2023-07-31T22:21:11.713Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "vehicle": [
+      {
+        "id": "b3783283-377f-4de3-87c7-af6637f8ed85",
+        "info": "Sedan",
+        "created_at": "2023-07-31T17:17:39.705Z",
+        "updated_at": "2023-08-01T01:15:13.199Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "c4eee9b8-b9d6-41e3-991e-951b137f393d",
+        "info": "SUV",
+        "created_at": "2023-08-01T07:24:51.141Z",
+        "updated_at": "2023-08-01T07:37:12.805Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "692b1995-0895-4eac-9d0f-4670dcf20f0a",
+        "info": "Truck",
+        "created_at": "2023-07-31T17:26:25.172Z",
+        "updated_at": "2023-08-01T10:28:25.131Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "790f2f50-bb28-4ccf-aa5a-e1e7bd766d8e",
+        "info": "Motorcycle",
+        "created_at": "2023-08-01T10:14:57.433Z",
+        "updated_at": "2023-08-01T11:30:03.422Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "1ef7df67-9b9f-4f92-a2e8-3295e3f14e5f",
+        "info": "Van",
+        "created_at": "2023-08-01T00:41:17.874Z",
+        "updated_at": "2023-08-01T05:05:36.028Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "trip": [
+      {
+        "id": "0e05827e-754b-437b-b6d0-a529930f3c61",
+        "cost": 90104,
+        "created_at": "2023-07-31T19:37:19.407Z",
+        "updated_at": "2023-07-31T17:53:34.015Z",
+        "vehicle_id": "790f2f50-bb28-4ccf-aa5a-e1e7bd766d8e"
+      },
+      {
+        "id": "7b41fe99-a05a-4c81-8f37-2270fa993b36",
+        "cost": 18816,
+        "created_at": "2023-08-01T01:01:22.986Z",
+        "updated_at": "2023-07-31T13:29:08.969Z",
+        "vehicle_id": "790f2f50-bb28-4ccf-aa5a-e1e7bd766d8e"
+      },
+      {
+        "id": "e8d126b9-9d33-47d0-8d1b-e4c34e0b5ebd",
+        "cost": 32135,
+        "created_at": "2023-08-01T05:58:26.741Z",
+        "updated_at": "2023-07-31T18:44:50.963Z",
+        "vehicle_id": "b3783283-377f-4de3-87c7-af6637f8ed85"
+      },
+      {
+        "id": "93075e64-82b0-48b4-9a20-7d2a5b450cac",
+        "cost": 76234,
+        "created_at": "2023-08-01T10:39:23.833Z",
+        "updated_at": "2023-08-01T00:07:50.999Z",
+        "vehicle_id": "692b1995-0895-4eac-9d0f-4670dcf20f0a"
+      },
+      {
+        "id": "b40b9ffa-dda6-431f-842e-ace9a41e696a",
+        "cost": 78037,
+        "created_at": "2023-08-01T10:45:50.079Z",
+        "updated_at": "2023-08-01T06:45:53.267Z",
+        "vehicle_id": "692b1995-0895-4eac-9d0f-4670dcf20f0a"
+      }
+    ],
+    "position": [
+      {
+        "id": "68ff244e-2e7b-4646-ae1f-7445ffaa9c10",
+        "location": "New York",
+        "created_at": "2023-07-31T19:47:25.509Z",
+        "updated_at": "2023-08-01T04:50:10.523Z",
+        "vehicle_id": "b3783283-377f-4de3-87c7-af6637f8ed85"
+      },
+      {
+        "id": "3e4f5281-3dff-4d78-b91b-426c7ec3f59d",
+        "location": "London",
+        "created_at": "2023-08-01T07:29:27.339Z",
+        "updated_at": "2023-07-31T20:53:23.325Z",
+        "vehicle_id": "b3783283-377f-4de3-87c7-af6637f8ed85"
+      },
+      {
+        "id": "42699147-3378-4b9b-a8b4-b8cde8c3f6e3",
+        "location": "Tokyo",
+        "created_at": "2023-08-01T01:09:07.487Z",
+        "updated_at": "2023-07-31T14:19:30.200Z",
+        "vehicle_id": "1ef7df67-9b9f-4f92-a2e8-3295e3f14e5f"
+      },
+      {
+        "id": "f062f925-fd94-4037-ae20-1c1b87039ac9",
+        "location": "Sydney",
+        "created_at": "2023-07-31T17:42:21.797Z",
+        "updated_at": "2023-07-31T23:52:39.301Z",
+        "vehicle_id": "692b1995-0895-4eac-9d0f-4670dcf20f0a"
+      },
+      {
+        "id": "a82f2e2b-1f7f-41e5-b70e-ab2d519a851b",
+        "location": "Paris",
+        "created_at": "2023-08-01T05:55:43.451Z",
+        "updated_at": "2023-07-31T14:47:36.260Z",
+        "vehicle_id": "c4eee9b8-b9d6-41e3-991e-951b137f393d"
+      }
+    ],
+    "loading_slip": [
+      {
+        "id": "56896a95-0b4b-4a2b-8766-123a4b01af91",
+        "details": "Delivery to Warehouse A",
+        "created_at": "2023-08-01T04:51:17.680Z",
+        "updated_at": "2023-07-31T23:59:44.862Z",
+        "trip_id": "e8d126b9-9d33-47d0-8d1b-e4c34e0b5ebd"
+      },
+      {
+        "id": "defb639f-ee6a-4806-a307-7f34bab111cc",
+        "details": "Pickup from Port B",
+        "created_at": "2023-08-01T12:01:26.731Z",
+        "updated_at": "2023-08-01T08:55:50.723Z",
+        "trip_id": "e8d126b9-9d33-47d0-8d1b-e4c34e0b5ebd"
+      },
+      {
+        "id": "6cc35eb1-3dd2-4b2e-9f57-bb46bfe37665",
+        "details": "Transport to Customer C",
+        "created_at": "2023-08-01T04:22:21.604Z",
+        "updated_at": "2023-08-01T12:32:47.547Z",
+        "trip_id": "e8d126b9-9d33-47d0-8d1b-e4c34e0b5ebd"
+      },
+      {
+        "id": "4190030f-ab14-4cea-a6e3-59a8f99412ff",
+        "details": "Unload at Distribution Center",
+        "created_at": "2023-08-01T01:47:16.616Z",
+        "updated_at": "2023-07-31T14:53:35.160Z",
+        "trip_id": "b40b9ffa-dda6-431f-842e-ace9a41e696a"
+      },
+      {
+        "id": "4dead451-f784-4fcc-aa4b-f2b500038441",
+        "details": "Load onto Ship",
+        "created_at": "2023-07-31T22:01:44.688Z",
+        "updated_at": "2023-07-31T21:35:32.625Z",
+        "trip_id": "7b41fe99-a05a-4c81-8f37-2270fa993b36"
+      }
+    ],
+    "fuel": [
+      {
+        "id": "6de6a03c-35d8-4cf5-aebb-740319616a35",
+        "type": "Gasoline",
+        "price": 52918,
+        "created_at": "2023-07-31T19:16:51.627Z",
+        "updated_at": "2023-08-01T04:09:56.807Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "0e5bedfb-6344-48a4-a310-b4880097845a",
+        "type": "Diesel",
+        "price": 43402,
+        "created_at": "2023-08-01T08:21:36.711Z",
+        "updated_at": "2023-07-31T15:50:15.126Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "a6ed54ec-8774-4adc-b991-75cf0d228cb1",
+        "type": "Electric",
+        "price": 16694,
+        "created_at": "2023-08-01T06:24:48.841Z",
+        "updated_at": "2023-08-01T00:02:37.188Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "cee1567f-e548-4897-b159-30b50fc50085",
+        "type": "Hybrid",
+        "price": 50836,
+        "created_at": "2023-07-31T18:44:08.379Z",
+        "updated_at": "2023-08-01T01:31:52.389Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "733a2cbc-a80f-4f55-be53-2e45a927d4b4",
+        "type": "Biofuel",
+        "price": 28589,
+        "created_at": "2023-07-31T21:23:20.520Z",
+        "updated_at": "2023-08-01T00:14:51.449Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "driver": [
+      {
+        "id": "f66f6e49-093d-422d-b072-bfd89e62494b",
+        "name": "John Smith",
+        "created_at": "2023-08-01T07:22:30.528Z",
+        "updated_at": "2023-07-31T19:24:59.109Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a63a004d-81fd-4405-9852-4a57057d79cd",
+        "name": "Jane Doe",
+        "created_at": "2023-08-01T06:51:58.959Z",
+        "updated_at": "2023-08-01T05:10:49.304Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "060291eb-40f5-4576-9447-14b47a1d4bf1",
+        "name": "Michael Brown",
+        "created_at": "2023-08-01T05:12:35.584Z",
+        "updated_at": "2023-08-01T00:22:47.448Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7e56798b-3e09-4c7c-a213-2e91d1e35cd1",
+        "name": "Sarah Jones",
+        "created_at": "2023-07-31T13:24:47.588Z",
+        "updated_at": "2023-07-31T15:55:16.617Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "aa85a867-d144-4928-934c-fd5bac86d5d1",
+        "name": "David Wilson",
+        "created_at": "2023-07-31T22:18:03.940Z",
+        "updated_at": "2023-08-01T01:54:29.820Z",
+        "user_id": "user_entity_pk"
+      }
+    ]
+  },
+  {
+    "transporter": [
+      {
+        "id": "34c6071a-244c-4a75-9606-88a3d0903802",
+        "name": "ABC Transport",
+        "created_at": "2023-08-01T02:27:57.981Z",
+        "updated_at": "2023-07-31T15:00:07.576Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "118748a7-a97a-4117-99b0-c25313e8bdf7",
+        "name": "XYZ Logistics",
+        "created_at": "2023-07-31T21:23:25.938Z",
+        "updated_at": "2023-07-31T22:12:11.983Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0b6042fb-6245-4cc6-bfe0-2abf59205904",
+        "name": "QuickShip",
+        "created_at": "2023-08-01T00:18:48.092Z",
+        "updated_at": "2023-08-01T03:27:08.016Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1849cd60-4bfd-4c36-97ff-9346634ab656",
+        "name": "SpeedyTrans",
+        "created_at": "2023-07-31T22:57:28.861Z",
+        "updated_at": "2023-07-31T14:19:09.594Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9d4d60ed-60ed-436d-85e5-321cabdc3c3f",
+        "name": "ExpressCargo",
+        "created_at": "2023-07-31T15:59:28.953Z",
+        "updated_at": "2023-08-01T04:19:13.909Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "supplier": [
+      {
+        "id": "0cd2a7c0-f2d2-4478-ac72-6b05cda606f5",
+        "name": "ABC Suppliers",
+        "created_at": "2023-07-31T14:08:50.593Z",
+        "updated_at": "2023-07-31T15:38:50.502Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2e4da6ca-b344-412f-b0d5-66bf4a62d26a",
+        "name": "XYZ Distributors",
+        "created_at": "2023-07-31T13:31:23.576Z",
+        "updated_at": "2023-07-31T23:00:32.751Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dc08af81-bda8-41af-aa49-679599060d8c",
+        "name": "Global Imports",
+        "created_at": "2023-08-01T05:12:47.435Z",
+        "updated_at": "2023-07-31T20:10:55.624Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "922ec0e8-2ee1-4fa7-a172-60b05ccb7666",
+        "name": "Local Traders",
+        "created_at": "2023-07-31T14:28:31.126Z",
+        "updated_at": "2023-08-01T09:57:33.743Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e0e151ed-b36a-43b0-b99e-97eccd79bf2d",
+        "name": "International Exporters",
+        "created_at": "2023-08-01T01:24:23.793Z",
+        "updated_at": "2023-07-31T17:10:36.207Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "reminder": [
+      {
+        "id": "97ff4537-e0b9-4dcb-99cb-d80b5565dc16",
+        "details": "Meeting at 10am",
+        "created_at": "2023-08-01T02:49:57.532Z",
+        "updated_at": "2023-08-01T04:21:41.007Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "49d79602-1909-452d-812c-123decbd4988",
+        "details": "Submit report by end of day",
+        "created_at": "2023-07-31T15:31:20.004Z",
+        "updated_at": "2023-07-31T15:27:07.590Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a437be08-21fe-4dda-b862-2ba7302abd3c",
+        "details": "Follow up with client",
+        "created_at": "2023-08-01T02:46:41.968Z",
+        "updated_at": "2023-08-01T09:52:12.613Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5fe11d23-53d6-43e1-8a8e-b69697e66a9a",
+        "details": "Review project progress",
+        "created_at": "2023-07-31T19:24:05.058Z",
+        "updated_at": "2023-08-01T05:07:15.239Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f87b0ed0-0e01-4b4b-a265-22050f4dab53",
+        "details": "Send payment reminder",
+        "created_at": "2023-08-01T05:15:20.399Z",
+        "updated_at": "2023-07-31T15:02:05.306Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "vehicle": [
+      {
+        "id": "6d559b10-8958-4eb6-8023-ef88aa8c34cf",
+        "info": "Sedan",
+        "created_at": "2023-08-01T05:24:28.921Z",
+        "updated_at": "2023-08-01T02:36:55.156Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "a77bc8e6-168a-4110-a8ed-e55254e5bef6",
+        "info": "SUV",
+        "created_at": "2023-08-01T06:05:07.678Z",
+        "updated_at": "2023-07-31T13:17:47.199Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "2044fa8f-79b4-4991-ab40-83d6f128e7a6",
+        "info": "Truck",
+        "created_at": "2023-07-31T18:27:32.590Z",
+        "updated_at": "2023-08-01T02:54:26.864Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "50f5fd11-f223-45d6-869b-cee9b1d0c10a",
+        "info": "Motorcycle",
+        "created_at": "2023-07-31T20:43:06.787Z",
+        "updated_at": "2023-08-01T04:08:13.778Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "cbfd2c14-6ade-4226-bc71-a1e45fe6d07f",
+        "info": "Van",
+        "created_at": "2023-08-01T09:21:11.264Z",
+        "updated_at": "2023-08-01T00:50:06.896Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "trip": [
+      {
+        "id": "2b7828a6-90d7-4deb-88bb-267cf08ea4a1",
+        "cost": 68827,
+        "created_at": "2023-07-31T13:08:16.477Z",
+        "updated_at": "2023-08-01T04:45:46.465Z",
+        "vehicle_id": "a77bc8e6-168a-4110-a8ed-e55254e5bef6"
+      },
+      {
+        "id": "f1f2c78e-89c9-4084-b92a-4e2cc3f8b9ff",
+        "cost": 56589,
+        "created_at": "2023-08-01T10:10:32.603Z",
+        "updated_at": "2023-08-01T01:45:57.643Z",
+        "vehicle_id": "2044fa8f-79b4-4991-ab40-83d6f128e7a6"
+      },
+      {
+        "id": "8fc78350-3e30-44be-a5b6-6b3e390d8fe7",
+        "cost": 78350,
+        "created_at": "2023-07-31T15:33:40.850Z",
+        "updated_at": "2023-07-31T17:59:23.638Z",
+        "vehicle_id": "2044fa8f-79b4-4991-ab40-83d6f128e7a6"
+      },
+      {
+        "id": "f094028e-1d2c-4eab-b1cd-344c2c097851",
+        "cost": 34587,
+        "created_at": "2023-08-01T05:15:30.345Z",
+        "updated_at": "2023-08-01T07:53:43.524Z",
+        "vehicle_id": "6d559b10-8958-4eb6-8023-ef88aa8c34cf"
+      },
+      {
+        "id": "8134a7fa-dbf3-4a6a-89f7-d0adcad8fb59",
+        "cost": 32603,
+        "created_at": "2023-07-31T14:51:25.840Z",
+        "updated_at": "2023-08-01T03:33:19.128Z",
+        "vehicle_id": "cbfd2c14-6ade-4226-bc71-a1e45fe6d07f"
+      }
+    ],
+    "position": [
+      {
+        "id": "6da32742-53d1-4b65-ad7e-90b88c2b8bf5",
+        "location": "New York",
+        "created_at": "2023-08-01T00:27:16.825Z",
+        "updated_at": "2023-07-31T14:19:00.762Z",
+        "vehicle_id": "cbfd2c14-6ade-4226-bc71-a1e45fe6d07f"
+      },
+      {
+        "id": "f7cb90e5-5ded-4ecd-aa83-99dfc938f106",
+        "location": "London",
+        "created_at": "2023-08-01T08:46:34.327Z",
+        "updated_at": "2023-07-31T14:16:39.549Z",
+        "vehicle_id": "50f5fd11-f223-45d6-869b-cee9b1d0c10a"
+      },
+      {
+        "id": "0e51d8fb-a8bd-4176-8d86-fccab20cfd16",
+        "location": "Tokyo",
+        "created_at": "2023-08-01T06:05:48.099Z",
+        "updated_at": "2023-08-01T04:45:03.877Z",
+        "vehicle_id": "6d559b10-8958-4eb6-8023-ef88aa8c34cf"
+      },
+      {
+        "id": "96cd9699-0ff5-4808-b178-27cffa4d0a1f",
+        "location": "Sydney",
+        "created_at": "2023-08-01T10:17:27.210Z",
+        "updated_at": "2023-07-31T15:06:21.804Z",
+        "vehicle_id": "2044fa8f-79b4-4991-ab40-83d6f128e7a6"
+      },
+      {
+        "id": "cc0ee21b-bb5d-42d7-b14f-8c043584f530",
+        "location": "Paris",
+        "created_at": "2023-08-01T04:54:33.305Z",
+        "updated_at": "2023-08-01T11:59:23.924Z",
+        "vehicle_id": "50f5fd11-f223-45d6-869b-cee9b1d0c10a"
+      }
+    ],
+    "loading_slip": [
+      {
+        "id": "d5b567e9-b4ce-4fa6-9851-07cee346e089",
+        "details": "Product A - 100 units",
+        "created_at": "2023-07-31T16:59:09.108Z",
+        "updated_at": "2023-07-31T21:54:20.894Z",
+        "trip_id": "f1f2c78e-89c9-4084-b92a-4e2cc3f8b9ff"
+      },
+      {
+        "id": "214da28b-0628-4a8e-a8e9-921091af8070",
+        "details": "Product B - 50 units",
+        "created_at": "2023-07-31T17:39:04.937Z",
+        "updated_at": "2023-08-01T09:42:26.594Z",
+        "trip_id": "8fc78350-3e30-44be-a5b6-6b3e390d8fe7"
+      },
+      {
+        "id": "07788e3e-1ff2-4806-93b3-d8f0be9caa74",
+        "details": "Product C - 200 units",
+        "created_at": "2023-08-01T05:33:08.559Z",
+        "updated_at": "2023-07-31T13:10:29.279Z",
+        "trip_id": "f1f2c78e-89c9-4084-b92a-4e2cc3f8b9ff"
+      },
+      {
+        "id": "2ee60cbc-8ec4-41a9-90ab-2d4046f8b8b5",
+        "details": "Product D - 75 units",
+        "created_at": "2023-07-31T20:27:12.668Z",
+        "updated_at": "2023-08-01T01:33:23.794Z",
+        "trip_id": "f094028e-1d2c-4eab-b1cd-344c2c097851"
+      },
+      {
+        "id": "f1693f9c-2942-40d8-a148-c11a0f763a1e",
+        "details": "Product E - 150 units",
+        "created_at": "2023-07-31T13:47:53.248Z",
+        "updated_at": "2023-08-01T11:46:44.647Z",
+        "trip_id": "2b7828a6-90d7-4deb-88bb-267cf08ea4a1"
+      }
+    ],
+    "fuel": [
+      {
+        "id": "95160d8f-adc4-439b-adff-6cdf1ade3924",
+        "type": "Gasoline",
+        "price": 22567,
+        "created_at": "2023-07-31T19:59:38.282Z",
+        "updated_at": "2023-08-01T09:35:24.148Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "9d136410-a961-4153-9266-a8312e2abc8f",
+        "type": "Diesel",
+        "price": 5393,
+        "created_at": "2023-08-01T08:33:49.371Z",
+        "updated_at": "2023-08-01T09:24:48.027Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "1b1c4a78-9b9c-4a1d-806f-19905fd708da",
+        "type": "Electric",
+        "price": 47517,
+        "created_at": "2023-07-31T22:39:32.203Z",
+        "updated_at": "2023-08-01T08:00:43.776Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "acdaefef-5d8c-4caf-b9b4-d96088ed473d",
+        "type": "Hybrid",
+        "price": 46573,
+        "created_at": "2023-08-01T05:57:39.880Z",
+        "updated_at": "2023-08-01T07:10:18.235Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "b2fbe9fd-7f08-494f-878a-ce8663a08170",
+        "type": "Biofuel",
+        "price": 97884,
+        "created_at": "2023-07-31T23:41:44.746Z",
+        "updated_at": "2023-07-31T23:24:18.455Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "driver": [
+      {
+        "id": "e1575466-6703-4e76-b2b3-7a46482c41ec",
+        "name": "John Smith",
+        "created_at": "2023-08-01T01:31:47.052Z",
+        "updated_at": "2023-07-31T21:44:25.004Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9088f42a-8084-4eb2-8c3f-8e4a29a0146d",
+        "name": "Jane Doe",
+        "created_at": "2023-07-31T19:17:23.304Z",
+        "updated_at": "2023-07-31T18:53:16.334Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6c45b3c2-59e4-4402-b17c-b39b4993a769",
+        "name": "Michael Brown",
+        "created_at": "2023-07-31T23:14:18.471Z",
+        "updated_at": "2023-07-31T14:36:08.784Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "abad7737-ed86-455e-b8b4-98a4e1caafd1",
+        "name": "Sarah Jones",
+        "created_at": "2023-08-01T12:15:07.335Z",
+        "updated_at": "2023-07-31T22:27:34.454Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "404ffa50-9131-4ef1-9469-8bbb8badf84a",
+        "name": "David Wilson",
+        "created_at": "2023-07-31T23:39:43.938Z",
+        "updated_at": "2023-08-01T05:54:25.736Z",
+        "user_id": "user_entity_pk"
+      }
+    ]
+  },
+  {
+    "transporter": [
+      {
+        "id": "4535497e-2c07-4059-8e13-cad3f21c1477",
+        "name": "ABC Transport",
+        "created_at": "2023-07-31T20:08:11.846Z",
+        "updated_at": "2023-08-01T00:19:45.181Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "99946539-0dcb-460f-ad25-bc6da534858e",
+        "name": "XYZ Logistics",
+        "created_at": "2023-08-01T01:46:23.936Z",
+        "updated_at": "2023-07-31T22:52:28.414Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6ff44dd0-3d6c-4883-bea0-bfce33beb3c9",
+        "name": "QuickShip",
+        "created_at": "2023-08-01T04:43:22.864Z",
+        "updated_at": "2023-07-31T13:24:51.478Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d6d8c525-7d16-4401-9ce2-1c49e1eb821b",
+        "name": "SpeedyTrans",
+        "created_at": "2023-08-01T06:27:42.828Z",
+        "updated_at": "2023-08-01T03:34:50.403Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8a859ccf-8062-446e-9a41-3780328a2624",
+        "name": "ExpressCargo",
+        "created_at": "2023-07-31T15:55:35.140Z",
+        "updated_at": "2023-07-31T20:54:27.682Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "supplier": [
+      {
+        "id": "5bf6284a-9aac-49ff-a4a4-df8761723138",
+        "name": "ABC Suppliers",
+        "created_at": "2023-07-31T15:29:12.652Z",
+        "updated_at": "2023-08-01T03:45:28.149Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c27a2caf-ab7f-4945-808a-52f624d7ab49",
+        "name": "XYZ Distributors",
+        "created_at": "2023-08-01T02:13:51.137Z",
+        "updated_at": "2023-08-01T09:18:41.706Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c0c6ee40-89f1-4e27-a718-17b79a5cd394",
+        "name": "Global Imports",
+        "created_at": "2023-08-01T11:27:04.308Z",
+        "updated_at": "2023-07-31T20:39:38.248Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "947fd6ed-781f-4440-8ae8-f3362e5560f6",
+        "name": "Local Traders",
+        "created_at": "2023-08-01T09:25:43.271Z",
+        "updated_at": "2023-08-01T08:12:20.964Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "76fcc9f1-4eac-4f88-9ff3-02d1be28c0b2",
+        "name": "International Exporters",
+        "created_at": "2023-07-31T18:15:04.414Z",
+        "updated_at": "2023-08-01T09:01:22.703Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "reminder": [
+      {
+        "id": "52e5d11c-c4eb-4a76-b68a-7935bc8806b8",
+        "details": "Meeting at 10 AM",
+        "created_at": "2023-08-01T05:12:21.028Z",
+        "updated_at": "2023-08-01T00:34:23.867Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "66fa7b3b-ad2e-4253-a020-c381dcac7f41",
+        "details": "Submit report by end of day",
+        "created_at": "2023-07-31T19:45:53.182Z",
+        "updated_at": "2023-08-01T09:21:35.543Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "08c1deea-b996-43bd-9b1d-d168d2a1b397",
+        "details": "Follow up with client",
+        "created_at": "2023-08-01T00:06:26.833Z",
+        "updated_at": "2023-07-31T15:46:47.420Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dbfb4fac-9ee2-406e-bf0c-5a48f0bf68b7",
+        "details": "Review project progress",
+        "created_at": "2023-07-31T22:48:27.012Z",
+        "updated_at": "2023-07-31T21:50:21.558Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a75c00cb-9414-48bf-aba2-fbf4803d1ad1",
+        "details": "Send payment reminder",
+        "created_at": "2023-08-01T12:32:50.486Z",
+        "updated_at": "2023-08-01T00:10:36.582Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "vehicle": [
+      {
+        "id": "0d8de83f-18b6-4f24-9066-a1e4cba3b70a",
+        "info": "Sedan",
+        "created_at": "2023-07-31T16:17:58.944Z",
+        "updated_at": "2023-08-01T12:07:46.671Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "0ff67e50-64a0-4eda-ba33-1dcd21160bb4",
+        "info": "SUV",
+        "created_at": "2023-07-31T15:41:56.521Z",
+        "updated_at": "2023-07-31T19:18:52.497Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "50bbcd5b-362d-4ad4-91ef-442ede93de90",
+        "info": "Truck",
+        "created_at": "2023-08-01T10:08:23.396Z",
+        "updated_at": "2023-08-01T05:36:34.360Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "e1527b09-32e2-4db9-87e8-ee4be86d2b4e",
+        "info": "Motorcycle",
+        "created_at": "2023-08-01T05:25:29.946Z",
+        "updated_at": "2023-07-31T23:38:20.698Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "fef62fd4-05cb-49b2-b155-6de63cf8b228",
+        "info": "Van",
+        "created_at": "2023-08-01T06:50:32.894Z",
+        "updated_at": "2023-08-01T02:05:19.731Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "trip": [
+      {
+        "id": "2d5b44ff-060c-4564-be3f-4db0e67c114a",
+        "cost": 68104,
+        "created_at": "2023-08-01T01:34:18.784Z",
+        "updated_at": "2023-08-01T07:16:36.953Z",
+        "vehicle_id": "e1527b09-32e2-4db9-87e8-ee4be86d2b4e"
+      },
+      {
+        "id": "d8f05e8f-700e-4f1c-8c77-da1a8686206c",
+        "cost": 41169,
+        "created_at": "2023-07-31T21:14:57.535Z",
+        "updated_at": "2023-07-31T17:47:21.342Z",
+        "vehicle_id": "50bbcd5b-362d-4ad4-91ef-442ede93de90"
+      },
+      {
+        "id": "1227977c-6402-42be-8b1b-952540e5ebce",
+        "cost": 14558,
+        "created_at": "2023-08-01T06:13:03.999Z",
+        "updated_at": "2023-07-31T14:13:32.760Z",
+        "vehicle_id": "0d8de83f-18b6-4f24-9066-a1e4cba3b70a"
+      },
+      {
+        "id": "451e13c6-bb26-4925-87b4-175cfe7d1e0d",
+        "cost": 43100,
+        "created_at": "2023-08-01T05:07:52.856Z",
+        "updated_at": "2023-08-01T08:08:53.341Z",
+        "vehicle_id": "e1527b09-32e2-4db9-87e8-ee4be86d2b4e"
+      },
+      {
+        "id": "7b59745b-edaf-4da2-a72d-b553b6fc7912",
+        "cost": 180,
+        "created_at": "2023-08-01T01:46:06.599Z",
+        "updated_at": "2023-08-01T02:25:24.838Z",
+        "vehicle_id": "fef62fd4-05cb-49b2-b155-6de63cf8b228"
+      }
+    ],
+    "position": [
+      {
+        "id": "1f752202-1004-43fd-866c-d4bd316ebd2e",
+        "location": "New York",
+        "created_at": "2023-08-01T07:38:34.582Z",
+        "updated_at": "2023-07-31T21:54:23.732Z",
+        "vehicle_id": "e1527b09-32e2-4db9-87e8-ee4be86d2b4e"
+      },
+      {
+        "id": "70f75c76-d5c7-49db-a56a-b9343bdee372",
+        "location": "London",
+        "created_at": "2023-08-01T01:26:50.368Z",
+        "updated_at": "2023-07-31T23:49:26.497Z",
+        "vehicle_id": "50bbcd5b-362d-4ad4-91ef-442ede93de90"
+      },
+      {
+        "id": "40eb7a02-35b3-414d-941c-2789601000e3",
+        "location": "Tokyo",
+        "created_at": "2023-08-01T00:13:37.633Z",
+        "updated_at": "2023-08-01T06:20:57.672Z",
+        "vehicle_id": "fef62fd4-05cb-49b2-b155-6de63cf8b228"
+      },
+      {
+        "id": "8566f643-a3f4-4af8-8826-9c21351dc16a",
+        "location": "Sydney",
+        "created_at": "2023-07-31T18:56:27.464Z",
+        "updated_at": "2023-07-31T16:54:49.783Z",
+        "vehicle_id": "50bbcd5b-362d-4ad4-91ef-442ede93de90"
+      },
+      {
+        "id": "3d9be24b-eda1-495e-b7c1-9fa54027bd29",
+        "location": "Paris",
+        "created_at": "2023-07-31T14:00:21.652Z",
+        "updated_at": "2023-07-31T18:53:21.695Z",
+        "vehicle_id": "e1527b09-32e2-4db9-87e8-ee4be86d2b4e"
+      }
+    ],
+    "loading_slip": [
+      {
+        "id": "2e3ae0ca-9aba-4800-9bd9-3adbf6b49bf1",
+        "details": "Product A - 100 units",
+        "created_at": "2023-08-01T12:16:51.192Z",
+        "updated_at": "2023-08-01T00:31:20.513Z",
+        "trip_id": "7b59745b-edaf-4da2-a72d-b553b6fc7912"
+      },
+      {
+        "id": "bd5d8870-a839-4cf5-afd7-a158db0c2f61",
+        "details": "Product B - 50 units",
+        "created_at": "2023-07-31T14:59:14.185Z",
+        "updated_at": "2023-08-01T09:50:59.437Z",
+        "trip_id": "7b59745b-edaf-4da2-a72d-b553b6fc7912"
+      },
+      {
+        "id": "9135d2b4-dc9a-43a0-bd84-58e8bb2df859",
+        "details": "Product C - 200 units",
+        "created_at": "2023-07-31T15:29:10.379Z",
+        "updated_at": "2023-07-31T16:53:05.801Z",
+        "trip_id": "d8f05e8f-700e-4f1c-8c77-da1a8686206c"
+      },
+      {
+        "id": "6f4dbdc3-73b9-46f9-b7db-0f034f749f29",
+        "details": "Product D - 75 units",
+        "created_at": "2023-08-01T07:47:05.076Z",
+        "updated_at": "2023-08-01T03:58:50.370Z",
+        "trip_id": "2d5b44ff-060c-4564-be3f-4db0e67c114a"
+      },
+      {
+        "id": "3168f8ad-19ae-4e44-a025-5542f4dd5474",
+        "details": "Product E - 150 units",
+        "created_at": "2023-08-01T04:49:53.375Z",
+        "updated_at": "2023-08-01T03:36:24.134Z",
+        "trip_id": "451e13c6-bb26-4925-87b4-175cfe7d1e0d"
+      }
+    ],
+    "fuel": [
+      {
+        "id": "1e95d94d-7734-41f1-8e2e-7eae4228f207",
+        "type": "Gasoline",
+        "price": 23370,
+        "created_at": "2023-07-31T14:50:14.348Z",
+        "updated_at": "2023-07-31T21:36:05.233Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "c5ec7361-ecf5-4850-8f52-fc02a9af898c",
+        "type": "Diesel",
+        "price": 21578,
+        "created_at": "2023-07-31T22:37:25.337Z",
+        "updated_at": "2023-08-01T09:44:31.238Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "06957f82-0c8b-4db1-8e75-0ab51aa265eb",
+        "type": "Electric",
+        "price": 90114,
+        "created_at": "2023-07-31T19:09:17.982Z",
+        "updated_at": "2023-07-31T15:50:05.617Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "a3c07bb0-070f-4edf-9ee5-62d7cb65d756",
+        "type": "Hybrid",
+        "price": 66635,
+        "created_at": "2023-08-01T07:38:52.967Z",
+        "updated_at": "2023-07-31T22:32:12.676Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "9d33a2b4-39cb-4d37-853d-d6a57da0c8b1",
+        "type": "Biofuel",
+        "price": 57082,
+        "created_at": "2023-08-01T11:58:51.957Z",
+        "updated_at": "2023-08-01T09:51:26.083Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "driver": [
+      {
+        "id": "434de946-2b48-474e-a09b-a029dab234a9",
+        "name": "John Smith",
+        "created_at": "2023-07-31T15:15:08.171Z",
+        "updated_at": "2023-07-31T17:38:46.569Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6f3aaacc-6c40-4f05-84e1-085114f2c605",
+        "name": "Jane Doe",
+        "created_at": "2023-07-31T12:53:38.986Z",
+        "updated_at": "2023-08-01T11:43:09.874Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b8eb3e8b-cdb2-434b-9f8e-0db58d7ed4ff",
+        "name": "Michael Brown",
+        "created_at": "2023-07-31T19:33:58.187Z",
+        "updated_at": "2023-08-01T12:31:35.252Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "aa75bbb4-c25c-448a-b735-bf6e3f3c6fc0",
+        "name": "Sarah Jones",
+        "created_at": "2023-08-01T11:09:16.743Z",
+        "updated_at": "2023-07-31T19:20:24.611Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b363b166-6cbe-4ba6-92d5-182ee69141a2",
+        "name": "David Wilson",
+        "created_at": "2023-07-31T17:57:47.602Z",
+        "updated_at": "2023-08-01T11:48:16.502Z",
+        "user_id": "user_entity_pk"
+      }
+    ]
+  },
+  {
+    "transporter": [
+      {
+        "id": "bf976ab5-139a-4dc9-a86f-a1d69a68032b",
+        "name": "ABC Transport",
+        "created_at": "2023-08-01T03:32:47.384Z",
+        "updated_at": "2023-08-01T03:05:49.399Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "209be3f0-d47f-4d82-aab6-f156d420f273",
+        "name": "XYZ Logistics",
+        "created_at": "2023-08-01T08:04:42.471Z",
+        "updated_at": "2023-08-01T00:35:56.696Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d808f0f9-0ae0-4770-b8af-68cc2b021b10",
+        "name": "QuickShip",
+        "created_at": "2023-08-01T03:07:18.360Z",
+        "updated_at": "2023-07-31T18:51:40.341Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e0d55f18-bb8d-4260-911c-c94c08d97b08",
+        "name": "SpeedyTrans",
+        "created_at": "2023-08-01T10:37:17.682Z",
+        "updated_at": "2023-07-31T16:59:16.380Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "28e3ab30-00a4-4cd6-9fac-73196457e2bd",
+        "name": "ExpressCargo",
+        "created_at": "2023-07-31T17:47:05.360Z",
+        "updated_at": "2023-08-01T07:02:25.953Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "supplier": [
+      {
+        "id": "478b0ad9-7190-46d4-a612-d171eef26639",
+        "name": "ABC Suppliers",
+        "created_at": "2023-07-31T20:31:23.300Z",
+        "updated_at": "2023-07-31T15:34:33.264Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "02880cab-20c8-4aac-810f-43ad6805b8de",
+        "name": "XYZ Distributors",
+        "created_at": "2023-08-01T00:54:26.921Z",
+        "updated_at": "2023-07-31T20:58:28.710Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f8bffe2a-44d2-4baa-9a91-8abb0908c191",
+        "name": "Global Imports",
+        "created_at": "2023-07-31T22:16:35.971Z",
+        "updated_at": "2023-08-01T05:27:23.952Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3e996f4e-6e18-4f40-bb7a-6af4032f5127",
+        "name": "Local Traders",
+        "created_at": "2023-08-01T03:25:39.424Z",
+        "updated_at": "2023-08-01T05:15:20.994Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "69bc061f-5451-4fa2-bb54-a48dd4d8c442",
+        "name": "International Exporters",
+        "created_at": "2023-08-01T02:30:29.272Z",
+        "updated_at": "2023-07-31T18:07:18.773Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "reminder": [
+      {
+        "id": "fd37d78a-2290-4e8e-b9d9-7976e554cf8b",
+        "details": "Meeting at 10 AM",
+        "created_at": "2023-07-31T13:25:28.299Z",
+        "updated_at": "2023-07-31T12:40:09.402Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2bdde9e0-224b-4ae3-9573-407249779e20",
+        "details": "Submit report by end of day",
+        "created_at": "2023-07-31T17:27:38.536Z",
+        "updated_at": "2023-08-01T00:23:42.758Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3d70968d-4195-460c-83d4-414d7463c5f7",
+        "details": "Follow up with client",
+        "created_at": "2023-07-31T16:32:26.727Z",
+        "updated_at": "2023-07-31T22:25:24.510Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fbcf0d53-d7cf-4043-ad73-aef32d289a17",
+        "details": "Review project progress",
+        "created_at": "2023-08-01T06:44:48.306Z",
+        "updated_at": "2023-07-31T18:24:11.798Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "265f4cc9-4b22-4d82-b126-97145c386ba3",
+        "details": "Send payment reminder",
+        "created_at": "2023-07-31T12:46:34.205Z",
+        "updated_at": "2023-08-01T03:59:08.208Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "vehicle": [
+      {
+        "id": "cef8c0e7-472a-4180-ac38-1be91e1b3ee5",
+        "info": "Sedan",
+        "created_at": "2023-08-01T04:30:36.335Z",
+        "updated_at": "2023-07-31T23:41:03.099Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "253017cd-4bde-4697-8bf7-f977ae89083d",
+        "info": "SUV",
+        "created_at": "2023-07-31T15:16:52.185Z",
+        "updated_at": "2023-07-31T17:20:20.024Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "54a4dc8f-c8f7-458e-ace4-b5cbc58fbb6f",
+        "info": "Truck",
+        "created_at": "2023-08-01T12:34:22.086Z",
+        "updated_at": "2023-08-01T00:24:31.804Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "e946b773-744c-46fe-b193-d1f371b4b5ac",
+        "info": "Motorcycle",
+        "created_at": "2023-07-31T17:11:37.919Z",
+        "updated_at": "2023-08-01T11:36:31.100Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "d1a66bb4-9f06-4e1b-8680-b9f4f553ed3d",
+        "info": "Van",
+        "created_at": "2023-08-01T07:06:47.109Z",
+        "updated_at": "2023-08-01T08:34:23.051Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "trip": [
+      {
+        "id": "b2c55d1b-aa5e-4ce1-b9a1-66a910a6771f",
+        "cost": 47126,
+        "created_at": "2023-08-01T08:11:58.334Z",
+        "updated_at": "2023-07-31T23:57:50.433Z",
+        "vehicle_id": "d1a66bb4-9f06-4e1b-8680-b9f4f553ed3d"
+      },
+      {
+        "id": "a444d0b9-e834-40a8-866c-984c4ca744ff",
+        "cost": 25558,
+        "created_at": "2023-08-01T01:56:02.993Z",
+        "updated_at": "2023-07-31T13:50:52.661Z",
+        "vehicle_id": "cef8c0e7-472a-4180-ac38-1be91e1b3ee5"
+      },
+      {
+        "id": "70b03228-e46f-449f-be80-7667fd0eacbb",
+        "cost": 84005,
+        "created_at": "2023-08-01T02:00:46.521Z",
+        "updated_at": "2023-08-01T05:27:28.968Z",
+        "vehicle_id": "e946b773-744c-46fe-b193-d1f371b4b5ac"
+      },
+      {
+        "id": "68fc4b8c-f30e-4d15-920e-9a55758b172d",
+        "cost": 27853,
+        "created_at": "2023-08-01T03:42:01.419Z",
+        "updated_at": "2023-07-31T17:55:16.297Z",
+        "vehicle_id": "d1a66bb4-9f06-4e1b-8680-b9f4f553ed3d"
+      },
+      {
+        "id": "0fa2a3a8-65be-4890-92f5-b4b7f0361a4b",
+        "cost": 66467,
+        "created_at": "2023-08-01T09:42:07.530Z",
+        "updated_at": "2023-07-31T16:15:23.293Z",
+        "vehicle_id": "54a4dc8f-c8f7-458e-ace4-b5cbc58fbb6f"
+      }
+    ],
+    "position": [
+      {
+        "id": "0c1004cd-cb5a-4d9d-9df9-aeb821431f71",
+        "location": "New York",
+        "created_at": "2023-08-01T04:02:18.526Z",
+        "updated_at": "2023-07-31T21:05:37.709Z",
+        "vehicle_id": "253017cd-4bde-4697-8bf7-f977ae89083d"
+      },
+      {
+        "id": "7d9dbbfb-89cf-4b83-8bca-907027e66179",
+        "location": "London",
+        "created_at": "2023-08-01T05:50:42.698Z",
+        "updated_at": "2023-07-31T13:54:37.505Z",
+        "vehicle_id": "e946b773-744c-46fe-b193-d1f371b4b5ac"
+      },
+      {
+        "id": "5f37efdf-0535-483f-9abe-f17db173140e",
+        "location": "Tokyo",
+        "created_at": "2023-08-01T03:02:56.150Z",
+        "updated_at": "2023-07-31T20:24:50.345Z",
+        "vehicle_id": "253017cd-4bde-4697-8bf7-f977ae89083d"
+      },
+      {
+        "id": "d56a6538-12c5-40f4-acc0-5e536bacdc62",
+        "location": "Sydney",
+        "created_at": "2023-07-31T20:43:14.123Z",
+        "updated_at": "2023-08-01T05:49:25.284Z",
+        "vehicle_id": "cef8c0e7-472a-4180-ac38-1be91e1b3ee5"
+      },
+      {
+        "id": "7e8d04a1-ba6c-4da1-917a-090a4db2bdbc",
+        "location": "Paris",
+        "created_at": "2023-07-31T13:35:32.692Z",
+        "updated_at": "2023-08-01T07:44:32.407Z",
+        "vehicle_id": "253017cd-4bde-4697-8bf7-f977ae89083d"
+      }
+    ],
+    "loading_slip": [
+      {
+        "id": "f2a52b4e-cf9f-4596-a450-100069e5ed23",
+        "details": "Product A - 100 units",
+        "created_at": "2023-07-31T19:57:45.024Z",
+        "updated_at": "2023-07-31T23:08:44.624Z",
+        "trip_id": "a444d0b9-e834-40a8-866c-984c4ca744ff"
+      },
+      {
+        "id": "a7b67893-51aa-4d7c-aa4f-b71be83a51fe",
+        "details": "Product B - 50 units",
+        "created_at": "2023-08-01T04:28:32.742Z",
+        "updated_at": "2023-08-01T07:45:54.848Z",
+        "trip_id": "b2c55d1b-aa5e-4ce1-b9a1-66a910a6771f"
+      },
+      {
+        "id": "b3752135-91f2-428a-9a14-f91a3113e38d",
+        "details": "Product C - 200 units",
+        "created_at": "2023-08-01T03:51:58.146Z",
+        "updated_at": "2023-08-01T00:51:14.582Z",
+        "trip_id": "0fa2a3a8-65be-4890-92f5-b4b7f0361a4b"
+      },
+      {
+        "id": "2b238555-1296-4289-99f0-a3eb9000de4b",
+        "details": "Product D - 75 units",
+        "created_at": "2023-08-01T00:33:27.170Z",
+        "updated_at": "2023-08-01T05:34:48.086Z",
+        "trip_id": "70b03228-e46f-449f-be80-7667fd0eacbb"
+      },
+      {
+        "id": "e6d6b17a-5c12-40d7-bba2-b57977676923",
+        "details": "Product E - 150 units",
+        "created_at": "2023-08-01T12:26:27.123Z",
+        "updated_at": "2023-08-01T10:22:40.937Z",
+        "trip_id": "a444d0b9-e834-40a8-866c-984c4ca744ff"
+      }
+    ],
+    "fuel": [
+      {
+        "id": "a9e4c8cf-d459-4be8-809b-c054ae375147",
+        "type": "Gasoline",
+        "price": 43232,
+        "created_at": "2023-08-01T00:36:46.049Z",
+        "updated_at": "2023-08-01T04:47:56.036Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "bdd0aa02-b5f2-441b-9d33-5e58c204fb19",
+        "type": "Diesel",
+        "price": 37516,
+        "created_at": "2023-08-01T02:16:22.957Z",
+        "updated_at": "2023-07-31T20:03:04.048Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "fb58af45-bd40-4c8c-b6ca-021f24b99b97",
+        "type": "Electric",
+        "price": 45650,
+        "created_at": "2023-08-01T07:00:56.544Z",
+        "updated_at": "2023-07-31T22:16:15.984Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "eda6bada-3e9b-4275-91c1-5bd2b52d4d41",
+        "type": "Hybrid",
+        "price": 97848,
+        "created_at": "2023-07-31T18:43:26.100Z",
+        "updated_at": "2023-07-31T19:19:01.384Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "58c9a881-5756-4331-85b0-703b22645707",
+        "type": "Biofuel",
+        "price": 99416,
+        "created_at": "2023-08-01T02:34:42.573Z",
+        "updated_at": "2023-08-01T01:42:24.410Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "driver": [
+      {
+        "id": "e003bb33-0f32-44df-b6cc-5312f3109f38",
+        "name": "John Smith",
+        "created_at": "2023-08-01T04:48:42.197Z",
+        "updated_at": "2023-07-31T20:56:25.283Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c3e62a40-6a73-41da-8307-4e4a6fd9670e",
+        "name": "Jane Doe",
+        "created_at": "2023-07-31T14:18:24.964Z",
+        "updated_at": "2023-07-31T22:52:08.277Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2f0da7e5-f346-40fb-82c5-54a3d8bb453f",
+        "name": "Michael Brown",
+        "created_at": "2023-07-31T12:50:01.454Z",
+        "updated_at": "2023-07-31T21:23:18.205Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4f01b768-5bcb-449d-adb6-0f31c5177791",
+        "name": "Sarah Jones",
+        "created_at": "2023-08-01T04:47:21.212Z",
+        "updated_at": "2023-08-01T09:15:24.863Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d886c9be-25bc-47f3-a8d4-7e9558ce36af",
+        "name": "David Wilson",
+        "created_at": "2023-08-01T04:46:32.209Z",
+        "updated_at": "2023-07-31T13:46:49.370Z",
+        "user_id": "user_entity_pk"
+      }
+    ]
+  }
+]
